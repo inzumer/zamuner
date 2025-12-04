@@ -1,0 +1,126 @@
+.menu {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-16);
+  height: var(--space-80);
+  background-color: var(--white-dark);
+  z-index: 8;
+}
+
+.menu__mobile_open {
+  flex-direction: column;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+  list-style: none;
+}
+
+.navbar__list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: var(--space-4) var(--space-16);
+}
+
+
+.navbar__list_item_text {
+  color: var(--black-light);
+  transition: color 0.3s ease;
+}
+
+.navbar__list_item_text:hover {
+  color: var(--black-dark);
+}
+
+.menu__mobile {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__container_buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  z-index: 11;
+}
+
+.menu__mobile_button {
+  padding: 0;
+}
+
+.menu__content_open {
+  position: absolute;
+  top: var(--space-80);
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: var(--space-16);
+  background-color: var(--white-dark);
+  transform: scaleX(1);
+  opacity: 1;
+  visibility: visible;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 10;
+}
+
+.menu__content_open>.navbar__list {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.menu__content_close {
+  transform: scaleX(0);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.menu__item {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    padding: var(--space-16) var(--space-32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar__list {
+    gap: var(--space-48);
+  }
+
+  .navbar__list_item {
+    border: 2px solid var(--gray-light);
+    border-radius: var(--space-48);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .navbar__list_item_text:hover {
+    color: var(--black-light);
+  }
+
+  .navbar__list_item:hover {
+    box-shadow: 0 5px 6px -4px #000000c2;
+  }
+}

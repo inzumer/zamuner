@@ -1,0 +1,104 @@
+{
+  "header": {
+    "home": "Inizio",
+    "history": "Storia",
+    "returns": "Ritorni",
+    "contact": "Contatto",
+    "family-tree": "Albero Genealogico"
+  },
+  "presentation": {
+    "title": "Echi di una Storia Comune",
+    "description": "Questo sito web è un ponte tra il passato e i nuovi rami. È un invito a tutti gli Zamuner —ovunque si trovino— a connettersi con le proprie origini, a condividere i propri ricordi e ad assicurare che la storia trovi in questa casa digitale il suo punto d'incontro."
+  },
+  "history": {
+    "title": "La Storia",
+    "title-one": "Il Contesto del Cognome",
+    "description-one": "Il nostro cognome, Zamuner, è più di un'identificazione; è una professione. Nel dialetto veneto, \"Muner\" significa Mugnaio, e il prefisso \"Za\" è una contrazione di Zan (Giovanni). Nata nella regione di Treviso, sulle rive del fiume Sile, una zona famosa per i suoi mulini ad acqua, la nostra linea si è sviluppata nel paese di Dosson.",
+    "description-two": "La zona fu segnata dall'influenza della Repubblica di Venezia e da un lungo periodo sotto l'Impero d'Austria (come parte del Regno Lombardo-Veneto fino al 1866), il che si riflette nella possibilità che il cognome derivi da altri simili esistenti in Austria. Inoltre, si racconta che alcuni dei nostri antenati fossero pescatori nel Mare Adriatico.",
+    "location-title": "Dosson di Casier: La Terra del Mugnaio (Veneto, Italia)",
+    "location-description": "La casa in cui vivevano prima del 1924 Leone Zamuner, Esther Ogniben e i loro 9 figli si trova a Dosson di Casier, in provincia di Treviso, Italia.",
+    "timeline-title": "La Saga da Dosson all'Argentina",
+    "timeline-description": "La linea temporale documenta come si giunse alla decisione finale di abbandonare un'Italia senza futuro per la promessa di pace e pane nell'Argentina del 1924.",
+    "before-1914": {
+      "title": "I. Prima del 1914 ",
+      "description-one": "Le vite, come quella di Gaetano Zamuner, erano di sussistenza, non di prosperità. La maggior parte delle persone a Dosson era 'mezzadro' (coltivatore in mezzadria).",
+      "description-two": "Lavoravano la terra (il 50% del raccolto era destinato al proprietario terriero) senza speranza di possedere mai un metro di terra.",
+      "description-three": "La dieta quotidiana si basava quasi esclusivamente sulla polenta (farina di mais), che generava la pellagra, una malattia. La fame costante, più che la mancanza di lavoro, fu la prima grande 'spinta' migratoria.",
+      "description-four": "Nonostante la povertà, la famiglia tentò di prosperare. All'inizio del XX secolo, Luigi Zamuner e suo figlio Leone gestivano un negozio per la vendita di carne di maiale e suoi derivati a Dosson. Inoltre, Leone Zamuner aveva un laboratorio per la produzione di oggetti in ceramica e artigianato.",
+      "description-five": "A causa di queste difficoltà, la generazione di Leone cominciò a disperdersi a livello globale. Aveva una sorella e tre fratelli, ognuno dei quali emigrò verso destinazioni diverse: Stati Uniti, Brasile e Centro America (uno di loro tornò in Italia in seguito).",
+      "description-six": "Anche la famiglia Ogniben (a cui si unì Esther Ogniben, moglie di Leone) partì in questo periodo. Partirono non solo fuggendo dalla povertà, ma anche per scampare all'imminente scoppio della Prima Guerra Mondiale, che si percepiva sul confine austriaco."
+    },
+    "1915-1918": {
+      "title": "II. 1915-1918 ",
+      "description-one": "Coloro che rimasero, come Leone Zamuner, vissero l'inferno. La Grande Guerra trasformò Treviso nel principale scenario di battaglia.",
+      "description-two": "Dopo la sconfitta di Caporetto nel 1917, il fronte di guerra si stabilì sul fiume Piave. Paesi come Dosson e Casier furono sotto costante bombardamento, con le case requisite e i campi coltivati distrutti. La vita si fermò e il lavoro dei negozi e dei laboratori cessò.",
+      "description-three": "È conservata un'identificazione ufficiale utilizzata da Leone Zamuner mentre combatteva nella Prima Guerra Mondiale.",
+      "description-four": "Il nostro antenato Leone Zamuner non solo sopravvisse; partecipò alla vita civica. Fu un 'Oblatore' (donatore o membro del comitato) che aiutò a onorare i caduti di guerra, firmando la pergamena depositata accanto alla prima pietra del monumento."
+    },
+    "1924": {
+      "title": "III. 1924 ",
+      "description-one": "Dopo aver visto la guerra e onorato i morti, Leone ed Esther compresero che non c'era futuro per i vivi nella terra natale.",
+      "description-two": "La campagna era distrutta, i mulini sul Sile inservibili e le attività di carne e ceramica rovinate. L'inflazione del dopoguerra rendeva impossibile ricostruire la vita.",
+      "description-three": "L'ascesa del Fascismo portò violenza politica nelle aree rurali. I giovani erano costretti ad arruolarsi o a subire ritorsioni. La democrazia era scomparsa.",
+      "description-four": "Con gli Stati Uniti che chiudevano le porte all'immigrazione di massa, l'Argentina divenne l'opzione percorribile. La promessa di \"Fare l'America\".",
+      "description-five": "Nel 1924, Leone Zamuner, Esther Ogniben e i loro nove figli presero la decisione finale. Partirono per Buenos Aires, lasciandosi alle spalle un'eredità di mugnai, pescatori e artigiani segnati dalla guerra, per fondare una nuova stirpe in pace."
+    }
+  },
+  "gallery": {
+    "title": "Galleria di Ricordi",
+    "description": "Uno sguardo agli artefatti, ai documenti e alle fotografie che conservano la memoria della famiglia e la storia.",
+    "images": {
+      "all-family-one": "Leone Zamuner, Esther Ogniben e i loro nove figli emigrarono a Buenos Aires nel 1924. Da sinistra a destra: Rino Zamuner, Luis Zamuner, Marcelo Zamuner, Esther Ogniben, Bruno Zamuner, Jose Zamuner, Carlos Zamuner, Leone Zamuner, Ada Zamuner, Antonio Zamuner, Güerino Zamuner.",
+      "all-family-two": "1961: Ultima foto dei nove fratelli insieme, quando Margarita compì 15 anni. Da sinistra a destra: Bruno Zamuner, José Zamuner, Marcelo Zamuner, Luis Zamuner, Antonio Zamuner, Güerino Zamuner, Carlos Zamuner, Rino Zamuner, Ada Zamuner, Margarita Zamuner.",
+      "antonio-zamuner-one": "Antonio Zamuner davanti alla casa durante la sua visita nel 1952. Si notano alcune modifiche volontarie e deterioramenti dovuti all'effetto del tempo, ma l'essenziale della struttura e dei dettagli rimane.",
+      "antonio-zamuner-two": "Settembre 1952: Visita di Antonio Zamuner a Dosson.",
+      "church-one": "Settembre 1952: Chiesa di San Vigilio a Dosson.",
+      "church-two": "Settembre 1952: Chiesa di San Vigilio a Dosson.",
+      "cousins": "1952: Parte della prima generazione di Zamuner argentini: Roberto, Esther, Juan Carlos, María Esther, Margarita, Marta, Alicia e Alberto.",
+      "discount-card": "Distintivo di bigliettaio del tram utilizzato da Rino Zamuner e tessera per i clienti della sua libreria.",
+      "family": "1952: La famiglia si riunisce al porto di Buenos Aires per salutare Antonio Zamuner, che parte per rivedere il suo paese natale.",
+      "family-ogniben": "Famiglia Ogniben: Ricardo Ogniben e Josefa Bandiera con le loro figlie María Angela, Mercedes e Ada.",
+      "holy-cards": "Santino portato da Leone Zamuner durante la Prima Guerra Mondiale.",
+      "house": "Fotografia che appare sulla cartolina di Dosson con il titolo \"Via Peschiere\". Mostra la casa in cui Leone Zamuner, Esther Ogniben e i loro 9 figli vivevano prima del 1924. Tra i bambini che si vedono in strada potrebbero esserci alcuni di loro. Via Peschiere nasce all'angolo della Parrocchia San Vigilio.",
+      "inner-prayer-book-one": "Pagine interne del libro di preghiere di Leone Zamuner.",
+      "inner-prayer-book-two": "Pagine interne del libro di preghiere di Leone Zamuner.",
+      "inner-prayer-book-three": "Pagine interne del libro di preghiere di Leone Zamuner.",
+      "inner-prayer-book-four": "Pagine interne del libro di preghiere di Leone Zamuner.",
+      "keychains": "Portachiavi con i volti di Juan Perón ed Eva Perón disegnati e realizzati da Marcelo Zamuner.",
+      "leone-zamuner-document": "Documento di identità utilizzato da Leone Zamuner durante la sua partecipazione alla Prima Guerra Mondiale.",
+      "neighbors": "Vicinato in Via Peschiere alla fine del XIX secolo.",
+      "newspaper": "Articolo del giornale \"Viernes\" con servizio su Marcelo Zamuner riguardante la realizzazione di un busto di Eva Perón in bronzo (marzo 1950).",
+      "notes": "Annotazioni di Leone Zamuner sulla nascita dei suoi figli.",
+      "painting": "Quadro dipinto da Marcelo Zamuner con cornice realizzata da Rino Zamuner. Quadro che rappresenta la chiesa di San Giorgio Maggiore, sull'omonima isola a Venezia. Marcelo Zamuner studiò all'Accademia di Belle Arti di Venezia prima del 1924 e dipinse il quadro nel 1950 con i dettagli che ricordava.",
+      "parchment": "Pergamena conservata accanto alla pietra fondamentale del monumento agli abitanti di Dosson caduti nella Prima Guerra Mondiale. Nell'angolo inferiore sinistro appare la firma di Leone Zamuner. Traduzione: Dosson, Ai suoi figli caduti per la patria Italia nella grande guerra 1915 - 1918. Nel Cimitero Parrocchiale sulle ossa dei loro antenati lì sepolti fino al 1868 questo ricordo marmoreo grato consacra firmando la Presidenza - il Comitato - i Donatori. Pergamena depositata accanto alla prima pietra del Monumento ai Caduti, illuminata (disegnata) dal Rev. Parroco locale - Don Egidio Piran.",
+      "postal": "Cartolina di Dosson in cui appare Piazza Guglielmo Marconi, con la chiesa di San Vigilio sullo sfondo. Il monumento ai caduti della Prima Guerra Mondiale non è ancora stato costruito. La seconda immagine mostra la casa in Via Peschiere, ed è descritta nella pagina corrispondente.",
+      "sainthood": "Gruppo scultoreo \"San Cosma e San Damiano\". Opera di Marcelo Zamuner che si conserva attualmente in una chiesa nel quartiere di La Boca.",
+      "san-juan-one": "1952: Lo stesso giorno del 1952 passeggiando lungo l'Avenida San Juan al 3400, a Buenos Aires, quando i marciapiedi erano più larghi e circolavano ancora i tram.",
+      "san-juan-two": "1952: Di fronte al negozio di cornici per quadri aperto da Rino Zamuner in Avenida San Juan 3494, la cui facciata si vede anche nella foto sopra.",
+      "tray": "Vassoio di porcellana che promuoveva l'attività di Leone Zamuner prima del 1924. Traduzione: \"Impresa Zamuner Leone / deposito ceramica e porcellana / vasellame in ferro smaltato / vetri, cotoni, ecc\"."
+    }
+  },
+  "footer": {
+    "social": "Reti Sociali",
+    "language": "Lingua",
+    "disclaimer": "Sviluppato da @inzumer — o Nahuel Zamuner, come preferisci."
+  },
+  "contact": {
+    "title": "Salutami",
+    "text": "Hai una domanda, una proposta o semplicemente vuoi salutare? Puoi inviarmi una mail da qui.",
+    "email": "Email",
+    "affair": "Oggetto",
+    "message": "Messaggio",
+    "sending": "Invio...",
+    "send": "Inviare messaggio",
+    "success": "Messaggio inviato!",
+    "error": "Si è verificato un errore durante l’invio del messaggio. Per favore, riprova.",
+    "placeholder-email": "example@mail.com",
+    "placeholder-affair": "Centrare un div.",
+    "placeholder-message": "Ho bisogno di aiuto con un div, non riesco a centrarlo."
+  },
+  "error": {
+    "message": "Ops, qualcosa è andato storto. Per favore, riprova più tardi.",
+    "button": "Tornare all’inizio"
+  }
+}

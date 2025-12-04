@@ -1,0 +1,44 @@
+.switch__container {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-8);
+
+
+  /* 2.Box model */
+  padding: var(--space-8);
+}
+
+.switch__button {
+  /* 2.Box model */
+  border: none;
+  padding: var(--space-8);
+  border-radius: var(--space-8);
+  width: var(--space-40);
+  height: var(--space-40);
+
+  /* 3.Typography */
+  color: var(--black-light);
+
+  /* 4.Visuals */
+  background-color: var(--white-dark);
+  border: 2px solid var(--gray-light);
+  border-radius: var(--space-48);
+  transition: box-shadow .3s;
+
+  /* 5.Others */
+  cursor: pointer;
+}
+
+.switch__button__selected,
+.switch__button:hover {
+  /* 4.Visuals */
+  box-shadow: 0 5px 6px -4px #000000c2;
+}
+
+.switch__button_text {
+  /* 3.Typography */
+  color: var(--black-dark);
+}

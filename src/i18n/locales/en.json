@@ -1,0 +1,104 @@
+{
+  "header": {
+    "home": "Home",
+    "history": "History",
+    "returns": "Returns",
+    "contact": "Contact",
+    "family-tree": "Family Tree"
+  },
+  "presentation": {
+    "title": "Echoes of a Shared History",
+    "description": "This website is a bridge between the past and the new branches. It is an invitation to all Zamuners —wherever they may be— to connect with their origins, to share their memories, and to ensure that this history finds its meeting point in this digital home."
+  },
+  "history": {
+    "title": "The History",
+    "title-one": "The Context of the Surname",
+    "description-one": "Our surname, Zamuner, is more than an identification; it is a profession. In the Venetian dialect, \"Muner\" means Miller, and the prefix \"Za\" is a contraction of Zan (Giovanni/John). Born in the Treviso region, on the banks of the Sile River, an area famous for its water mills, our branch developed in the village of Dosson.",
+    "description-two": "The area was marked by the influence of the Republic of Venice and a long period under the Austrian Empire (as part of the Lombardy-Venetia Kingdom until 1866), which is reflected in the possibility that the surname derives from similar ones existing in Austria. Furthermore, it is said that some of our ancestors were fishermen in the Adriatic Sea.",
+    "location-title": "Dosson di Casier: The Miller's Land (Veneto, Italy)",
+    "location-description": "The house where Leone Zamuner, Esther Ogniben, and their 9 children lived before 1924 is located in Dosson di Casier, in the province of Treviso, Italy.",
+    "timeline-title": "The Saga from Dosson to Argentina",
+    "timeline-description": "The timeline documents how they were led to the final decision to abandon a futureless Italy for the promise of peace and bread in Argentina in 1924.",
+    "before-1914": {
+      "title": "I. Before 1914 ",
+      "description-one": "Lives, like that of Gaetano Zamuner, were about subsistence, not prosperity. Most people in Dosson were 'mezzadro' (sharecropper).",
+      "description-two": "They worked the land (50% of the harvest went to the landlord) with no hope of ever owning a single meter of land.",
+      "description-three": "The daily diet was based almost exclusively on polenta (cornmeal), which caused pellagra, a disease. Constant hunger, more than a lack of work, was the first major migratory 'push'.",
+      "description-four": "Despite the poverty, the family tried to prosper. At the beginning of the 20th century, Luigi Zamuner and his son Leone ran an establishment selling pork and its derivatives in Dosson. Additionally, Leone Zamuner had a workshop for the production of ceramics and handicrafts.",
+      "description-five": "As a result of these difficulties, Leone's generation began to disperse globally. He had one sister and three brothers, each of whom emigrated to different destinations: the United States, Brazil, and Central America (one of them later returned to Italy).",
+      "description-six": "The Ogniben family (which Esther Ogniben, Leone's wife, joined) departed at this time. They left not only fleeing poverty but also escaping the imminent outbreak of World War I, which was felt on the Austrian border."
+    },
+    "1915-1918": {
+      "title": "II. 1915-1918 ",
+      "description-one": "Those who stayed, like Leone Zamuner, lived through hell. The Great War turned Treviso into the main battleground.",
+      "description-two": "After the defeat of Caporetto in 1917, the war front was established on the Piave River. Towns like Dosson and Casier were under constant bombardment, with houses requisitioned and farmlands destroyed. Life stopped, and the work of businesses and workshops ceased.",
+      "description-three": "An official identification used by Leone Zamuner while fighting in World War I is preserved.",
+      "description-four": "Our ancestor Leone Zamuner not only survived; he participated in civic life. He was an 'Oblatore' (donor or committee member) who helped honor the war dead, signing the parchment deposited alongside the foundation stone of the monument."
+    },
+    "1924": {
+      "title": "III. 1924 ",
+      "description-one": "After having seen the war and honored the dead, Leone and Esther saw that there was no future for the living in their homeland.",
+      "description-two": "The countryside was destroyed, the mills on the Sile were unusable, and the meat and ceramics businesses were ruined. Post-war inflation made it impossible to rebuild life.",
+      "description-three": "The rise of Fascism brought political violence to rural areas. Young men were forced to join the ranks or suffer reprisals. Democracy had disappeared.",
+      "description-four": "With the United States closing its doors to mass immigration, Argentina became the viable option. The promise of 'Making a life in America' ('Hacer la América').",
+      "description-five": "In 1924, Leone Zamuner, Esther Ogniben, and their nine children made the final decision. They departed for Buenos Aires, leaving behind a legacy of millers, fishermen, and artisans marked by war, to found a new lineage in peace."
+    }
+  },
+  "gallery": {
+    "title": "Gallery of Memories",
+    "description": "A look at the artifacts, documents, and photographs that preserve the family's memory and history.",
+    "images": {
+      "all-family-one": "Leone Zamuner, Esther Ogniben and their nine children emigrated to Buenos Aires in 1924. In order from Left to Right: Rino Zamuner, Luis Zamuner, Marcelo Zamuner, Esther Ogniben, Bruno Zamuner, Jose Zamuner, Carlos Zamuner, Leone Zamuner, Ada Zamuner, Antonio Zamuner, Güerino Zamuner.",
+      "all-family-two": "1961: Last photo of the nine siblings together, when Margarita turned 15. In order from Left to Right: Bruno Zamuner, José Zamuner, Marcelo Zamuner, Luis Zamuner, Antonio Zamuner, Güerino Zamuner, Carlos Zamuner, Rino Zamuner, Ada Zamuner, Margarita Zamuner.",
+      "antonio-zamuner-one": "Antonio Zamuner in front of the house during his 1952 visit. Some voluntary modifications and deterioration due to the effect of time are visible, but the essential structure and details remain.",
+      "antonio-zamuner-two": "September 1952: Visit of Antonio Zamuner to Dosson.",
+      "church-one": "September 1952: Church of San Vigilio in Dosson.",
+      "church-two": "September 1952: Church of San Vigilio in Dosson.",
+      "cousins": "1952: Part of the first generation of Argentine Zamuners: Roberto, Esther, Juan Carlos, María Esther, Margarita, Marta, Alicia, and Alberto.",
+      "discount-card": "Tram guard badge used by Rino Zamuner, and customer card for his bookstore.",
+      "family": "1952: The family gathers at the port of Buenos Aires to bid farewell to Antonio Zamuner, who leaves to see his hometown again.",
+      "family-ogniben": "Ogniben Family: Ricardo Ogniben and Josefa Bandiera with their daughters María Angela, Mercedes, and Ada.",
+      "holy-cards": "Holy card carried by Leone Zamuner during World War I.",
+      "house": "Photograph appearing on the Dosson postcard titled \"Via Peschiere\". It shows the house where Leone Zamuner, Esther Ogniben, and their 9 children lived before 1924. Some of these children may be among the children visible on the street. Via Peschiere starts at the corner of the San Vigilio Parish Church.",
+      "inner-prayer-book-one": "Inner pages of Leone Zamuner's prayer book.",
+      "inner-prayer-book-two": "Inner pages of Leone Zamuner's prayer book.",
+      "inner-prayer-book-three": "Inner pages of Leone Zamuner's prayer book.",
+      "inner-prayer-book-four": "Inner pages of Leone Zamuner's prayer book.",
+      "keychains": "Key chain with the faces of Juan Perón and Eva Perón designed and made by Marcelo Zamuner.",
+      "leone-zamuner-document": "Identification used by Leone Zamuner during his participation in World War I.",
+      "neighbors": "Neighbors on Via Peschiere at the end of the 19th century.",
+      "newspaper": "Article from the newspaper \"Viernes\" with a report on Marcelo Zamuner regarding the creation of a bronze bust of Eva Perón (March 1950).",
+      "notes": "Leone Zamuner's notes about the birth of his children.",
+      "painting": "Painting by Marcelo Zamuner with a frame made by Rino Zamuner. The painting depicts the Church of San Giorgio Maggiore, on the island of the same name in Venice. Marcelo Zamuner studied at the Academy of Fine Arts in Venice before 1924, and painted the picture in 1950 with the details he remembered.",
+      "parchment": "Parchment stored next to the foundation stone of the monument to the inhabitants of Dosson who fell in World War I. Leone Zamuner's signature appears in the bottom left corner. Translation: Dosson, To its sons who fell for the Italian homeland in the Great War 1915 - 1918. In the Parish Cemetery on the bones of their ancestors buried there until 1868 this grateful marble memorial is dedicated, signed by the Presidency - the Committee - the Donors. Parchment deposited next to the first stone of the Monument to the Fallen, illuminated (drawn) by the local Parish Priest - Don Egidio Piran.",
+      "postal": "Postcard of Dosson showing Piazza Guglielmo Marconi, with the Church of San Vigilio in the background. The monument to the fallen of World War I has not yet been built. The second image shows the house on Via Peschiere, and is described on the corresponding page.",
+      "sainthood": "Sculptural ensemble \"Saint Cosmas and Saint Damian\". Work by Marcelo Zamuner currently preserved in a church in the La Boca neighborhood.",
+      "san-juan-one": "1952: On the same day in 1952 walking along Avenida San Juan at 3400, in Buenos Aires, when the sidewalks were wider and the trams were still running.",
+      "san-juan-two": "1952: In front of the picture framing business set up by Rino Zamuner at Avenida San Juan 3494, the facade of which is also seen in the photo above.",
+      "tray": "Porcelain tray that promoted Leone Zamuner's business before 1924. Translation: \"Empresa Zamuner Leone / ceramic and porcelain depot / enameled iron tableware / glass, cotton goods, etc\"."
+    }
+  },
+  "footer": {
+    "social": "Social Network",
+    "language": "Language",
+    "disclaimer": "Developed by @inzumer — or Nahuel Zamuner, if you prefer."
+  },
+  "contact": {
+    "title": "Say Hi",
+    "text": "Do you have a question, a proposal, or just want to say hi? You can send me an email from here.",
+    "email": "Email",
+    "affair": "Subject",
+    "message": "Message",
+    "sending": "Sending...",
+    "send": "Send message",
+    "success": "Message sent successfully!",
+    "error": "There was an error sending your message. Please try again.",
+    "placeholder-email": "example@mail.com",
+    "placeholder-affair": "Center a div.",
+    "placeholder-message": "I need help centering a div, I just can't get it right."
+  },
+  "error": {
+    "message": "Oops, something went wrong. Please try again later.",
+    "button": "Back to home"
+  }
+}

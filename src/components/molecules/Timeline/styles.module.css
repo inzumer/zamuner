@@ -1,0 +1,61 @@
+.timeline {
+  list-style: none;
+  /* Quitar las viñetas predeterminadas de la lista */
+  padding: 0;
+  margin: 0;
+  position: relative;
+  /* Esencial para posicionar la línea vertical */
+}
+
+/* 1. Crear la línea vertical principal */
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--space-20);
+  /* Ajusta esta posición para centrar la línea */
+  width: 2px;
+  /* Grosor de la línea */
+  background-color: var(--gray-light);
+  /* Color de la línea */
+  z-index: 0;
+}
+
+.timeline_item {
+  margin-bottom: var(--space-24);
+  /* Espacio entre nodos */
+  position: relative;
+  /* Esencial para posicionar el nodo (círculo) */
+  padding-left: var(--space-24);
+  /* Espacio para el nodo y la línea */
+}
+
+/* 2. Estilizar el nodo (el círculo) */
+.timeline_node {
+  width: var(--space-20);
+  height: var(--space-20);
+  background-color: var(--gray);
+  /* Color del círculo */
+  border-radius: 50%;
+  border: var(--space-4) solid var(--gray-light);
+  /* Borde para que destaque sobre la línea */
+  position: absolute;
+  left: 10px;
+  /* Alinea el centro del círculo con la línea vertical (20px - 20px/2 = 10px) */
+  top: 0;
+  z-index: 1;
+  /* Asegura que el círculo esté por encima de la línea */
+}
+
+.timeline_content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  max-width: var(--space-496);
+  padding-left: var(--space-16);
+}
+
+.timeline__title {
+  line-height: normal;
+}

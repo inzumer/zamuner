@@ -1,0 +1,82 @@
+{
+  "history": {
+    "title": "La Historia",
+    "title-one": "El Contexto del Apellido",
+    "description-one": "Nuestro apellido, Zamuner, es más que una identificación; es una profesión. ",
+    "description-two": "En el dialecto véneto, 'Muner' significa Molinero, y el prefijo 'Za' es una contracción de Zan (Giovanni/Juan)."
+  },
+  "origin": {
+    "description-three": "Nacidos en la región de Treviso, a orillas del Río Sile, una zona famosa por sus molinos de agua, nuestra rama se desarrolló en el pueblo de Dosson.",
+    "description-four": "La zona estuvo marcada por la influencia de la República de Venecia y por un largo período bajo el Imperio de Austria (como parte del Reino Lombardo-Véneto hasta 1866), lo que se refleja en que el apellido podría derivar de otros similares existentes en Austria.",
+    "description-five": "Además, se cuenta que algunos de nuestros antepasados fueron pescadores en el Mar Adriático."
+  },
+  "before-1914": {
+    "title": "I. Antes de 1914 ",
+    "description-one": "Las vidas, como la de Gaetano Zamuner, eran de subsistencia, no de prosperidad.",
+    "description-two": "La mayoría de la gente en Dosson era mezzadro (aparcero).",
+    "description-three": "Trabajaban las tierras (el 50% de la cosecha era para el terrateniente) sin esperanza de poseer jamás un metro de tierra.",
+    "description-four": "La dieta diaria se basaba casi exclusivamente en polenta (harina de maíz), lo que generaba pelagra, una enfermedad.",
+    "description-five": "El hambre constante, más que la falta de trabajo, fue el primer gran 'empuje' migratorio.",
+    "description-six": "A pesar de la pobreza, la familia intentó prosperar. A inicios del siglo XX, Luigi Zamuner y su hijo Leone  atendieron un establecimiento de venta de carne de cerdo y sus derivados  en Dosson.",
+    "description-seven": "Además, Leone Zamuner tuvo un taller de producción de objetos de cerámica y artesanía.",
+    "description-eight": "A raíz de estas dificultades, la generación de Leone comenzó a dispersarse globalmente.",
+    "description-nine": "Él tuvo una hermana y tres hermanos  que emigraron cada uno a distintos destinos: Estados Unidos, Brasil y Centroamérica  (uno de ellos regresó a Italia más tarde) .",
+    "description-ten": "La familia Ogniben (a la que se unió Esther Ogniben, esposa de Leone) partió en este momento.",
+    "description-eleven": "Partieron no solo huyendo de la pobreza, sino escapando del estallido inminente de la Primera Guerra Mundial, que se sentía en la frontera austríaca."
+  },
+  "1915-1918": {
+    "title": "II. 1915-1918 ",
+    "description-one": "Quienes se quedaron, como Leone Zamuner, vivieron el infierno.",
+    "description-two": "La Gran Guerra convirtió a Treviso en el principal escenario de batalla.",
+    "description-three": "Después de la derrota de Caporetto en 1917, el frente de guerra se estableció en el Río Piave.",
+    "description-four": "Pueblos como Dosson y Casier quedaron bajo el constante bombardeo, con las casas requisadas y los campos de cultivo destruidos.",
+    "description-five": "La vida se detuvo y el trabajo de los comercios y talleres cesó.",
+    "description-six": "Se conserva una identificación oficial que utilizó Leone Zamuner al combatir en la Primera Guerra Mundial.",
+    "description-seven": "Nuestro antepasado Leone Zamuner no solo sobrevivió; participó en la vida cívica.",
+    "description-eight": "Él fue un 'Oblatore' (donante o miembro del comité) que ayudó a honrar a los muertos de la guerra, firmando el pergamino depositado junto a la primera piedra del monumento."
+  },
+  "1924": {
+    "title": "III. 1924 ",
+    "description-one": "Tras haber visto la guerra y honrado a los muertos, Leone y Esther vieron que no había futuro para los vivos en la tierra natal.",
+    "description-two": "El campo estaba destrozado, los molinos sobre el Sile inservibles y los negocios de carne y cerámica arruinados.",
+    "description-three": "La inflación de la posguerra hacía imposible reconstruir la vida.",
+    "description-four": "El ascenso del Fascismo trajo violencia política a las zonas rurales.",
+    "description-five": "Los jóvenes se veían obligados a unirse a las filas o a sufrir represalias. La democracia había desaparecido.",
+    "description-six": "Con Estados Unidos cerrando sus puertas a la inmigración masiva, Argentina se convirtió en la opción viable.",
+    "description-seven": "La promesa de 'Hacer la América'.",
+    "description-eight": "En 1924, Leone Zamuner, Esther Ogniben y sus nueve hijos tomaron la decisión final.",
+    "description-nine": "Partieron hacia Buenos Aires, dejando atrás un legado de molineros, pescadores y artesanos marcados por la guerra, para fundar una nueva línea en paz."
+  },
+  "bold-elements": {
+    "zamuner-name": "Zamuner",
+    "muner-meaning": "Molinero",
+    "za-meaning": "Zan (Giovanni/Juan)",
+    "treviso-region": "Treviso",
+    "sile-river": "Río Sile",
+    "dosson-village": "Dosson",
+    "austria-empire": "Imperio de Austria",
+    "austria-country": "Austria",
+    "fishermen-job": "pescadores en el Mar Adriático",
+    "gaetano-name": "Gaetano Zamuner",
+    "mezzadro-job": "mezzadro",
+    "polenta-diet": "polenta (harina de maíz)",
+    "pelagra-disease": "pelagra",
+    "luigi-name": "Luigi Zamuner",
+    "leone-name": "Leone",
+    "pork-business": "carne de cerdo y sus derivados",
+    "ceramic-workshop": "producción de objetos de cerámica y artesanía",
+    "leone-sister-brothers": "una hermana y tres hermanos",
+    "migration-destinations": "Estados Unidos, Brasil y Centroamérica",
+    "ogniben-family": "Ogniben",
+    "esther-ogniben": "Esther Ogniben",
+    "world-war-i": "Primera Guerra Mundial",
+    "great-war": "Gran Guerra",
+    "piave-river": "Río Piave",
+    "official-id": "identificación oficial",
+    "oblato-role": "\"Oblatore\" (donante o miembro del comité)",
+    "fascism-rise": "Fascismo",
+    "argentina-country": "Argentina",
+    "hacer-la-america-promise": "Hacer la América",
+    "leone-esther-children": "Leone Zamuner, Esther Ogniben y sus nueve hijos"
+  }
+}
