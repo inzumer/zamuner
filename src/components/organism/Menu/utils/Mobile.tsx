@@ -1,16 +1,34 @@
 'use client';
 
-import { useTranslation } from 'react-i18next';
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button, Icon, Navigate, RichText } from '@components';
+
+/** Styles */
 import styles from '../styles.module.css';
 
 const Mobile: React.FC = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const toggleMenu = () => {
+    if (isTransitioning) return;
+
+    setIsTransitioning(true);
     setIsOpen(!isOpen);
+
+    setTimeout(() => {
+      setIsTransitioning(false);
+    }, 300);
+  };
+
+  const actionButtons = (url: string) => {
+    window.location.href = url;
+
+    if (isOpen) {
+      toggleMenu();
+    }
   };
 
   useEffect(() => {
@@ -38,24 +56,24 @@ const Mobile: React.FC = () => {
       <nav className={isOpen ? styles.menu__content_open : styles.menu__content_close}>
         <ul className={styles.navbar__list}>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-history' href='/#history'>
+            <Button id='menu-history' onClick={() => actionButtons('/#history')}>
               <RichText id='menu-option-text-history' text={t('header.history')} variant='s2' className={styles.navbar__list_item_text} />
-            </Navigate>
+            </Button>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-returns' href='/returns'>
+            <Button id='menu-returns' onClick={() => actionButtons('/returns')}>
               <RichText id='menu-option-text-returns' text={t('header.returns')} variant='s2' className={styles.navbar__list_item_text} />
-            </Navigate>
+            </Button>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-contact' href='/#contact'>
+            <Button id='menu-contact' onClick={() => actionButtons('/#contact')}>
               <RichText id='menu-option-text-contact' text={t('header.contact')} variant='s2' className={styles.navbar__list_item_text} />
-            </Navigate>
+            </Button>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-family-tree' href='/family-tree'>
+            <Button id='menu-family-tree' onClick={() => actionButtons('/family-tree')}>
               <RichText id='menu-option-text-family-tree' text={t('header.family-tree')} variant='s2' className={styles.navbar__list_item_text} />
-            </Navigate>
+            </Button>
           </li>
         </ul>
       </nav>

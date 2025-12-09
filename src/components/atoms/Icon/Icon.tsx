@@ -1,4 +1,3 @@
-/** Resources */
 import * as Icons from '../../../assets/icons';
 
 interface IconProps {

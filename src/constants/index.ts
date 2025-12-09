@@ -8,8 +8,8 @@ export const MEDIA_QUERY = {
 
 /** Redirection */
 export const SOCIAL_LINKS = {
-  GITHUB: "https://github.com/inzumer",
-  LINKEDIN: "https://www.linkedin.com/in/inzumer",
+  GITHUB: 'https://github.com/inzumer',
+  LINKEDIN: 'https://www.linkedin.com/in/inzumer',
 };
 
 /** Resources */
@@ -32,4 +32,4 @@ export const NAME = 'Zamuner';
 
 export const TWITTER = '@inzumer';
 
-export const DESCRIPTION = "Misión: Reconstruir la Diáspora Zamuner. Trazamos la historia familiar desde el Véneto, uniendo las ramas dispersas. Añade tu contribución y ayudemos a completar el mapa.";
+export const DESCRIPTION = 'Misión: Reconstruir la Diáspora Zamuner. Trazamos la historia familiar desde el Véneto, uniendo las ramas dispersas. Añade tu contribución y ayudemos a completar el mapa.';

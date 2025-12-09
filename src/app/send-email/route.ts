@@ -1,4 +1,3 @@
-/** Resources */
 import { NextRequest, NextResponse } from 'next/server';
 import { EmailService } from '@services';
 

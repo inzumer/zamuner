@@ -1,6 +1,5 @@
 'use client';
 
-/** Resources */
 import { useTranslation } from 'react-i18next';
 import { Card, RichText } from '@components';
 import { Images } from '@assets';
@@ -8,7 +7,7 @@ import { Images } from '@assets';
 /** Styles */
 import styles from '../styles.module.css';
 
-export const Gallery: React.FC = () => {
+const Gallery: React.FC = () => {
   const { t } = useTranslation();
 
   const GALLERY = [
@@ -68,3 +67,5 @@ export const Gallery: React.FC = () => {
 };
 
 Gallery.displayName = 'Gallery';
+
+export default Gallery;

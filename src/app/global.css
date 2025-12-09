@@ -17,8 +17,8 @@ body {
   font-optical-sizing: auto;
   line-height: 1.6;
   color: var(--black-light);
-  background-color: var(--white-dark);
   font-family: var(--font-body);
+  background-color: var(--white-dark);
 }
 
 html {

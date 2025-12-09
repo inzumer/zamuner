@@ -1,61 +1,69 @@
 .timeline {
-  list-style: none;
-  /* Quitar las viñetas predeterminadas de la lista */
+  /* 1.Positioning */
+  position: relative;
+
+  /* 2.Box model */
   padding: 0;
   margin: 0;
-  position: relative;
-  /* Esencial para posicionar la línea vertical */
+
+  /* 3.Typography */
+  list-style: none;
 }
 
-/* 1. Crear la línea vertical principal */
 .timeline::before {
+  /* 1.Positioning */
   content: '';
   position: absolute;
   top: 0;
   bottom: 0;
   left: var(--space-20);
-  /* Ajusta esta posición para centrar la línea */
-  width: 2px;
-  /* Grosor de la línea */
-  background-color: var(--gray-light);
-  /* Color de la línea */
   z-index: 0;
+
+  /* 2.Box model */
+  width: 2px;
+
+  /* 4.Visuals */
+  background-color: var(--gray-light);
 }
 
 .timeline_item {
-  margin-bottom: var(--space-24);
-  /* Espacio entre nodos */
+  /* 1.Positioning */
   position: relative;
-  /* Esencial para posicionar el nodo (círculo) */
+
+  /* 2.Box model */
+  margin-bottom: var(--space-24);
   padding-left: var(--space-24);
-  /* Espacio para el nodo y la línea */
 }
 
-/* 2. Estilizar el nodo (el círculo) */
 .timeline_node {
-  width: var(--space-20);
-  height: var(--space-20);
-  background-color: var(--gray);
-  /* Color del círculo */
-  border-radius: 50%;
-  border: var(--space-4) solid var(--gray-light);
-  /* Borde para que destaque sobre la línea */
+  /* 1.Positioning */
   position: absolute;
   left: 10px;
-  /* Alinea el centro del círculo con la línea vertical (20px - 20px/2 = 10px) */
   top: 0;
   z-index: 1;
-  /* Asegura que el círculo esté por encima de la línea */
+
+  /* 2.Box model */
+  width: var(--space-20);
+  height: var(--space-20);
+  border-radius: 50%;
+  border: var(--space-4) solid var(--gray-light);
+
+  /* 4.Visuals */
+  background-color: var(--gray);
 }
 
 .timeline_content {
+  /* 1.Positioning */
   display: flex;
   flex-direction: column;
+
+  /* 2.Box model */
   gap: var(--space-8);
   max-width: var(--space-496);
   padding-left: var(--space-16);
 }
 
 .timeline__title {
+  /* 3.Typography */
   line-height: normal;
 }

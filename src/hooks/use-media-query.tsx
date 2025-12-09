@@ -1,23 +1,34 @@
 'use client';
 
-/** Resources */
 import { useEffect, useState } from 'react';
 import { MEDIA_QUERY } from '@constants';
 
 export const useMediaQuery = (query: keyof typeof MEDIA_QUERY) => {
-  const [isMatching, setIsMatching] = useState(false);
+  const mediaQuery = MEDIA_QUERY[query];
+
+  const [isMatching, setIsMatching] = useState(() => {
+    if (typeof window === 'undefined') {
+      return false;
+    }
+    return window.matchMedia(mediaQuery).matches;
+  });
 
   useEffect(() => {
-    const mediaQuery = MEDIA_QUERY[query];
+    if (typeof window === 'undefined') {
+      return;
+    }
+
     const mediaQueryList = window.matchMedia(mediaQuery);
 
-    const handleChange = (event: MediaQueryListEvent) => setIsMatching(event.matches);
-
-    setIsMatching(mediaQueryList.matches);
+    const handleChange = (event: MediaQueryListEvent) => {
+      setIsMatching(event.matches);
+    };
 
     mediaQueryList.addEventListener('change', handleChange);
+
     return () => mediaQueryList.removeEventListener('change', handleChange);
-  }, [query]);
+
+  }, [mediaQuery]);
 
   return isMatching;
-}
+};

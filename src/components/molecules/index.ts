@@ -1,6 +1,4 @@
-/** Components */
 export { Card } from './Card';
-export { LanguageSwitch } from './LanguageSwitch';
-export { PagePosition } from './PagePosition';
-export { StatusMessage } from './StatusMessage';
+export { Language } from './Language';
+export { Snackbar } from './Snackbar';
 export { Timeline } from './Timeline';

@@ -1,14 +1,16 @@
 'use client';
 
-/** Resources */
-import { Presentation, History, Gallery } from './utils';
+import { Contact, Gallery, History, Presentation } from './utils';
 
-export const Home: React.FC = () => (
+const Home: React.FC = () => (
   <>
     <Presentation />
     <History />
     <Gallery />
+    <Contact />
   </>
 );
 
 Home.displayName = 'Home';
+
+export default Home;

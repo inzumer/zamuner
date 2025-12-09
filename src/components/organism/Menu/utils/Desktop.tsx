@@ -2,6 +2,8 @@
 
 import { useTranslation } from 'react-i18next';
 import { Icon, Navigate, RichText } from '@components';
+
+/** Styles */
 import styles from '../styles.module.css';
 
 const Desktop: React.FC = () => {
@@ -40,7 +42,7 @@ const Desktop: React.FC = () => {
       </nav>
     </header>
   );
-}
+};
 
 Desktop.displayName = 'Desktop';
 

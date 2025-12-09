@@ -1,9 +1,8 @@
 'use client';
 
-/** Resources */
 import { useState } from 'react';
-import { Button, Image, Icon, RichText } from '@components'
-import { Images } from '@assets'
+import { Button, Image, Icon, RichText } from '@components';
+import { Images } from '@assets';
 
 /** Styles */
 import styles from './styles.module.css';
@@ -49,7 +48,7 @@ const Card: React.FC<CardProps> = ({ id, imageUrl, altText, descriptionText }) =
       </div>
     </div>
   );
-}
+};
 
 Card.displayName = 'Card';
 

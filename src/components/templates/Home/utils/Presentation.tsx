@@ -1,11 +1,10 @@
-/** Resources */
 import { useTranslation } from 'react-i18next';
-import { Image, LanguageSwitch, RichText } from '@components';
+import { Image, Language, RichText } from '@components';
 
 /** Styles */
 import styles from '../styles.module.css';
 
-export const Presentation: React.FC = () => {
+const Presentation: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -18,10 +17,13 @@ export const Presentation: React.FC = () => {
         </div>
       </div>
       <div className={styles.presentation__float_buttons}>
-        <LanguageSwitch />
+        <Language />
       </div>
     </section>
   );
 };
 
 Presentation.displayName = 'Presentation';
+
+export default Presentation;
+

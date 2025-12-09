@@ -1,4 +1,3 @@
-/** Resources */
 import { JSX } from 'react';
 
 export const options: Record<string, { tag: keyof JSX.IntrinsicElements; class: string }> = {

@@ -1,22 +1,20 @@
-/** Resources */
-import { Metadata } from 'next'
+import { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { playfair, merriweather } from '@fonts';
 import { Footer, Menu, I18nLayout } from '@components';
 import { DESCRIPTION, NAME, TWITTER } from '@constants';
 
-
 /** Styles */
-import './styles.css';
+import './global.css';
 
 /** Metadata */
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.zamuner.com'),
+  metadataBase: new URL('https://www.zamuner.space'),
   title: `${NAME}`,
   description: `${DESCRIPTION}`,
   verification: {
-    google: 'QN0sWIaqD9UtHKO-cYsbv3HQCGg489vpVrqTIcWTSLg',
+    google: '',
   },
   icons: {
     icon: [
@@ -29,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: `${NAME}`,
     description: `${DESCRIPTION}`,
-    url: 'https://www.zamuner.com/',
+    url: 'https://www.zamuner.space',
     siteName: `${NAME}`,
     locale: 'es_ES',
     images: [
@@ -56,7 +54,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-}
+};
 
 /** RootLayout */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -74,5 +72,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </I18nLayout>
       </body>
     </html>
-  )
+  );
 }

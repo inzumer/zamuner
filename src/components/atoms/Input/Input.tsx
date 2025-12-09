@@ -1,6 +1,3 @@
-'use client';
-
-/** Resources */
 import { RichText } from '@components';
 
 /** Styles */

@@ -5,13 +5,13 @@
   align-items: center;
 
   /* 2. Box model */
-  padding: var(--space-16);
-  border: none;
-  border-radius: var(--space-8);
+  padding: var(--space-4) var(--space-16);
 
   /* 4. Visuals */
-  transition: background-color 0.3s;
+  border: none;
+  border-radius: var(--space-8);
   background-color: transparent;
+  transition: background-color 0.3s;
 
   /* 5. Others */
   cursor: pointer;

@@ -1,4 +1,3 @@
-/** Resources */
 import NextImage from 'next/image';
 import { Images } from '@assets';
 

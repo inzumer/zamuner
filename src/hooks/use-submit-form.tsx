@@ -1,6 +1,5 @@
 'use client';
 
-/** Resources */
 import { useState, useEffect } from 'react';
 import { API_PATH } from '@constants';
 

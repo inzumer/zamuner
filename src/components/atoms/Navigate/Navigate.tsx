@@ -1,4 +1,3 @@
-/** Resources */
 import Link from 'next/link';
 
 /** Styles */

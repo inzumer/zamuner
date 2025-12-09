@@ -1,10 +1,18 @@
 {
   "header": {
-    "home": "Inizio",
     "history": "Storia",
     "returns": "Ritorni",
     "contact": "Contatto",
     "family-tree": "Albero Genealogico"
+  },
+  "footer": {
+    "social": "Reti Sociali",
+    "language": "Lingua",
+    "disclaimer": "Sviluppato da @inzumer — o Nahuel Zamuner, come preferisci."
+  },
+  "error": {
+    "message": "Ops, qualcosa è andato storto. Per favore, riprova più tardi.",
+    "button": "Tornare all’inizio"
   },
   "presentation": {
     "title": "Echi di una Storia Comune",
@@ -78,27 +86,26 @@
       "tray": "Vassoio di porcellana che promuoveva l'attività di Leone Zamuner prima del 1924. Traduzione: \"Impresa Zamuner Leone / deposito ceramica e porcellana / vasellame in ferro smaltato / vetri, cotoni, ecc\"."
     }
   },
-  "footer": {
-    "social": "Reti Sociali",
-    "language": "Lingua",
-    "disclaimer": "Sviluppato da @inzumer — o Nahuel Zamuner, come preferisci."
-  },
   "contact": {
-    "title": "Salutami",
-    "text": "Hai una domanda, una proposta o semplicemente vuoi salutare? Puoi inviarmi una mail da qui.",
-    "email": "Email",
+    "title": "Contatti",
+    "description": "Hai qualche domanda, proposte da contribuire o semplicemente vuoi salutare? Puoi mandarmi un'e-mail da qui.",
+    "email": "Posta elettronica",
     "affair": "Oggetto",
     "message": "Messaggio",
     "sending": "Invio...",
-    "send": "Inviare messaggio",
+    "send": "Invia",
     "success": "Messaggio inviato!",
-    "error": "Si è verificato un errore durante l’invio del messaggio. Per favore, riprova.",
-    "placeholder-email": "example@mail.com",
-    "placeholder-affair": "Centrare un div.",
-    "placeholder-message": "Ho bisogno di aiuto con un div, non riesco a centrarlo."
+    "error": "Si è verificato un errore durante l'invio del messaggio. Riprova.",
+    "placeholder-email": "esempio@mail.com",
+    "placeholder-affair": "Voglio contribuire con informazioni all'albero genealogico.",
+    "placeholder-message": "Ho vecchie foto di famiglia che mi piacerebbe condividere."
   },
-  "error": {
-    "message": "Ops, qualcosa è andato storto. Per favore, riprova più tardi.",
-    "button": "Tornare all’inizio"
+  "returns": {
+    "title": "Ritorni a Dosson",
+    "description": "Nel corso dei decenni, diversi membri della famiglia Zamuner sono tornati a Dosson per riconnettersi con le proprie radici e riscoprire la terra dei loro antenati.",
+    "comunity-title": "Comunità Facebook",
+    "comunity-description": "Per coloro interessati ad approfondire la storia familiare, condividere ricordi o connettersi con altri membri della famiglia Zamuner, esiste un gruppo Facebook attivo dedicato a questo scopo.",
+    "comunity-link": "Gruppo Facebook - Famiglia Zamuner",
+    "photos": {}
   }
 }

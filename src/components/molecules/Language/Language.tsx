@@ -1,6 +1,5 @@
 'use client';
 
-/** Resources */
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { RichText } from '@components';
@@ -8,14 +7,14 @@ import { RichText } from '@components';
 /** Styles */
 import styles from './styles.module.css';
 
-type Language = 'es' | 'en' | 'it';
+type Languages = 'es' | 'en' | 'it';
 
-const LanguageSwitch: React.FC = () => {
+const Language: React.FC = () => {
   const { i18n } = useTranslation();
-  const languages: Language[] = ['es', 'en', 'it'];
-  const [selected, setSelected] = useState<Language>('es');
+  const languages: Languages[] = ['es', 'en', 'it'];
+  const [selected, setSelected] = useState<Languages>('es');
 
-  const handleSelect = (lang: Language) => {
+  const handleSelect = (lang: Languages) => {
     setSelected(lang);
     i18n.changeLanguage(lang);
   };
@@ -37,6 +36,6 @@ const LanguageSwitch: React.FC = () => {
   );
 };
 
-LanguageSwitch.displayName = 'LanguageSwitch';
+Language.displayName = 'Language';
 
-export default LanguageSwitch;
+export default Language;

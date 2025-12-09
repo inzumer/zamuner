@@ -1,10 +1,18 @@
 {
   "header": {
-    "home": "Inicio",
     "history": "Historia",
     "returns": "Regresos",
     "contact": "Contacto",
     "family-tree": "Árbol Genealógico"
+  },
+  "footer": {
+    "social": "Redes Sociales",
+    "language": "Lenguaje",
+    "disclaimer": "Desarrollado por @inzumer — o Nahuel Zamuner, como prefieras."
+  },
+  "error": {
+    "message": "Ups, algo salió mal. Por favor, intentá de nuevo más tarde.",
+    "button": "Volver al inicio"
   },
   "presentation": {
     "title": "Ecos de una Historia Común",
@@ -78,27 +86,26 @@
       "tray": "Bandeja de porcelana que promocionaba la actividad de Leone Zamuner antes de 1924. Traducción: \"Empresa Zamuner Leone / depósito cerámica y porcelana / vajilla en hierro esmaltado / vidrios, algodones, etc\"."
     }
   },
-  "footer": {
-    "social": "Redes Sociales",
-    "language": "Lenguaje",
-    "disclaimer": "Desarrollado por @inzumer — o Nahuel Zamuner, como prefieras."
-  },
   "contact": {
-    "title": "Salúdame",
-    "text": "¿Tenés alguna pregunta, propuesta o simplemente querés saludar? Podés enviarme un mail desde acá.",
+    "title": "Contacto",
+    "description": "¿Tenés alguna pregunta, propuesta que aportar o simplemente querés saludar? Podés enviarme un mail desde acá.",
     "email": "Correo electrónico",
     "affair": "Asunto",
     "message": "Mensaje",
     "sending": "Enviando...",
-    "send": "Enviar mensaje",
+    "send": "Enviar",
     "success": "¡Mensaje enviado!",
     "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.",
     "placeholder-email": "example@mail.com",
-    "placeholder-affair": "Centrar un div.",
-    "placeholder-message": "Necesito ayuda con un div, no puedo centrarlo."
+    "placeholder-affair": "Quiero aportar información al arbol genealógico.",
+    "placeholder-message": "Tengo fotos antiguas de la familia que me gustaría compartir."
   },
-  "error": {
-    "message": "Ups, algo salió mal. Por favor, intentá de nuevo más tarde.",
-    "button": "Volver al inicio"
+  "returns": {
+    "title": "Regresos a Dosson",
+    "description": "A lo largo de las décadas, varios miembros de la familia Zamuner han regresado a Dosson para reconectar con sus raíces y redescubrir la tierra de sus antepasados.",
+    "comunity-title": "Comunidad en Facebook",
+    "comunity-description": "Para aquellos interesados en profundizar en la historia familiar, compartir recuerdos o conectar con otros miembros de la familia Zamuner, existe un grupo activo en Facebook dedicado a este propósito.",
+    "comunity-link": "Grupo de Facebook - Familia Zamuner",
+    "photos": {}
   }
 }

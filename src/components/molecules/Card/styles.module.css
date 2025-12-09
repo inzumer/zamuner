@@ -1,69 +1,65 @@
-/* 1. Estilo de la Tarjeta Polaroid */
 .card {
+  /* 2.Box model */
   width: min-content;
   max-width: var(--space-496);
   height: fit-content;
-  background: var(--white-light);
   padding: var(--space-8);
-  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
-  transition: transform 0.8s ease;
   box-sizing: content-box;
+
+  /* 4.Visuals */
+  background: var(--white-light);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+
+  /* 5.Others */
+  transition: transform 0.8s ease;
 }
 
-/* 2. Estilo de la Imagen */
 .card__frame {
+  /* 2.Box model */
   margin-bottom: var(--space-8);
 }
 
 .card__frame img {
+  /* 1.Positioning */
+  display: block;
+
+  /* 2.Box model */
   width: -webkit-fill-available;
   height: auto;
   max-height: var(--space-320);
-  display: block;
-  object-fit: cover;
   max-width: var(--space-288);
+
+  /* 4.Visuals */
+  object-fit: cover;
 }
 
-/* 3. Estilo del Botón de Despliegue */
 .card__toggle {
+  /* 1.Positioning */
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  /* 2.Box model */
   width: 100%;
   padding: 0;
 }
 
-/* CLASE DINÁMICA: Clase para rotar la flecha */
-.rotate {
-  transform: rotate(180deg);
-}
-
-/* 5. Estilo de la Descripción y el Efecto Suave */
 .card__description_content {
+  /* 2.Box model */
   width: 100%;
   max-width: var(--space-496);
   overflow: hidden;
-  /* ❌ Quitar height: 0; aquí ya que max-height: 0 lo forzará */
-  /* height: 0; */
-
-  /* ✅ AÑADIR LA TRANSICIÓN para max-height */
-  transition: max-height 0.2s ease-in-out, padding 0.2s ease-in-out;
-  /* Puedes ajustar el tiempo (0.5s) y la función de temporización (ease-in-out) */
-
   max-height: 0;
-  /* ✅ INICIA EN 0 */
   padding-top: 0;
-  /* ✅ También transiciona el padding si lo hubiera */
   padding-bottom: 0;
+
+  /* 5.Others */
+  transition: max-height 0.2s ease-in-out, padding 0.2s ease-in-out;
 }
 
-/* CLASE DINÁMICA: Clase para abrir la descripción */
 .open {
-  /* ✅ ESTABLECE UN VALOR GRANDE (ej. 500px) que garantice que el contenido cabe. */
-  /* Si tu contenido es muy variable, hazlo lo suficientemente grande para el caso más grande. */
+  /* 2.Box model */
   max-height: calc(var(--space-496) + var(--space-496));
-
-  /* ✅ Restablece el padding si es necesario */
   padding-top: var(--space-8);
   padding-bottom: var(--space-8);
 }

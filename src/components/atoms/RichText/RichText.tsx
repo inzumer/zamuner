@@ -1,6 +1,3 @@
-'use client';
-
-/** Resources */
 import { JSX } from 'react';
 import { options } from './utils';
 

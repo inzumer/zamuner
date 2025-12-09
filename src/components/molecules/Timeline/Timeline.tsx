@@ -1,14 +1,12 @@
 'use client';
 
-/** Resources */
 import { RichText } from '@components';
 import { useTranslation } from 'react-i18next';
 
 /** Styles */
 import styles from './styles.module.css';
 
-
-export const Timeline: React.FC = () => {
+const Timeline: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -52,6 +50,8 @@ export const Timeline: React.FC = () => {
       </ul>
     </div>
   );
-}
+};
 
 Timeline.displayName = 'Timeline';
+
+export default Timeline;

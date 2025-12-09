@@ -1,13 +1,12 @@
 'use client';
 
-/** Resources */
 import { useTranslation } from 'react-i18next';
 import { RichText, Timeline } from '@components';
 
 /** Styles */
 import styles from '../styles.module.css';
 
-export const History: React.FC = () => {
+const History: React.FC = () => {
   const { t } = useTranslation();
 
   return (
@@ -43,3 +42,5 @@ export const History: React.FC = () => {
 };
 
 History.displayName = 'History';
+
+export default History;

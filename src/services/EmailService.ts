@@ -1,4 +1,3 @@
-/** Resources */
 import { Resend } from 'resend';
 
 class EmailService {
@@ -29,10 +28,10 @@ class EmailService {
         to: this.emailTo!,
         subject,
         html: `
-          <div style='background-color:#E0E0E0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;'>
-            <h1 style='color: #E0E0E0; background-color: #0f171b; padding: 16px; font-size: 24px; text-align: center;'> Message from @Inzumer
+          <div style='background-color:#E0E0E0; font-family:  "Playfair Display", "Playfair Display Fallback";'>
+            <h1 style='color: #ECE5D8; background-color: #4D453D; padding: 16px; font-size: 24px; text-align: center;'> Message from Zamuner Space
             </h1>
-            <div style='color: #0f171b; padding: 16px; font-size: 16px; text-align: left;'>
+            <div style='color: #4D453D; padding: 16px; font-size: 16px; text-align: left;'>
                 <p><strong>Email:</strong><br />${from}</p>
                 <p><strong>Asunto:</strong><br />${subject}</p>
                 <p><strong>Mensaje:</strong><br />${message}</p>
