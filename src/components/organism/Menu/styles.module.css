@@ -160,7 +160,7 @@
 
   .navbar__list_item {
     /* 2.Box model */
-    border: 2px solid var(--gray-light);
+    border: var(--space-2) solid var(--gray-light);
     border-radius: var(--space-48);
 
     /* 5.Others */

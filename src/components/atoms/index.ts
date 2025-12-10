@@ -4,3 +4,4 @@ export { Image } from './Image';
 export { Input } from './Input';
 export { Navigate } from './Navigate';
 export { RichText } from './RichText';
+export { Switch } from './Switch';

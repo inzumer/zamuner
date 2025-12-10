@@ -1,3 +1,7 @@
+export { default as AlbertoZamunerReturnOne } from './alberto-zamuner-return-one.jpg';
+export { default as AlbertoZamunerReturnTwo } from './alberto-zamuner-return-two.jpg';
+export { default as AlbertoZamunerReturnThree } from './alberto-zamuner-return-three.jpg';
+export { default as AlbertoZamunerReturnFour } from './alberto-zamuner-return-four.jpg';
 export { default as AllFamilyOne } from './all-family-one.jpg';
 export { default as AllFamilyTwo } from './all-family-two.jpg';
 export { default as AntonioZamunerOne } from './antonio-zamuner-one.jpg';
@@ -17,6 +21,10 @@ export { default as InnerPrayerBookThree } from './inner-prayer-book-three.jpg';
 export { default as InnerPrayerBookFour } from './inner-prayer-book-four.jpg';
 export { default as Keychains } from './keychains.png';
 export { default as LeoneZamunerDocument } from './leone-zamuner-document.jpg';
+export { default as MargaritaZamunerReturnOne } from './margarita-zamuner-return-one.jpg';
+export { default as MargaritaZamunerReturnTwo } from './margarita-zamuner-return-two.jpg';
+export { default as MargaritaZamunerReturnThree } from './margarita-zamuner-return-three.jpg';
+export { default as MargaritaZamunerReturnFour } from './margarita-zamuner-return-four.jpg';
 export { default as Neighbor } from './neighbors.jpg';
 export { default as Newspaper } from './newspaper.jpg';
 export { default as Notes } from './notes.jpg';

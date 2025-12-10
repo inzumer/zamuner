@@ -47,7 +47,7 @@ const Gallery: React.FC = () => {
       <div className={styles.gallery__container}>
         <div className={styles.gallery__container_text}>
           <RichText id='gallery-title' className={styles.gallery__title} variant='h2' text={t('gallery.title')} />
-          <RichText id='gallery-description' className={styles.gallery__description} variant='p3' text={t('gallery.description')} />
+          <RichText id='gallery-description' className={styles.gallery__description} variant='p2' text={t('gallery.description')} />
         </div>
 
         <div className={styles.gallery__container_cards}>

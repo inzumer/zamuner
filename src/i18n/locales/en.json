@@ -14,6 +14,22 @@
     "message": "Oops, something went wrong. Please try again later.",
     "button": "Back to home"
   },
+  "cookie": {
+    "title": "Cookie Settings",
+    "description": "We use necessary cookies for site function and third-party cookies (Google Maps, Analytics) to improve our services and your experience. You can accept or reject the use of cookies, or configure which ones you wish to authorize. For more information, consult our Cookie Policy (link).",
+    "accept-all": "Accept all",
+    "reject-all": "Reject all",
+    "customize": "Customize",
+    "settings-modal-title": "Manage Cookie Preferences",
+    "save-preferences": "Save Preferences",
+    "category-technical": "Technical and Necessary Cookies",
+    "category-technical-status": "Always Active",
+    "category-technical-desc": "These are essential for the website to function correctly (e.g., security, remembering banner settings). They cannot be disabled.",
+    "category-analytics": "Analytics and Performance Cookies",
+    "category-analytics-desc": "They allow us to count visits and measure traffic to see which parts of the site are popular and improve its performance.",
+    "category-external": "External Content Cookies (Maps)",
+    "category-external-desc": "They allow embedded content from third parties like Google Maps to be loaded. By activating them, you accept Google's terms of use and cookie policy."
+  },
   "presentation": {
     "title": "Echoes of a Shared History",
     "description": "This website is a bridge between the past and the new branches. It is an invitation to all Zamuners —wherever they may be— to connect with their origins, to share their memories, and to ensure that this history finds its meeting point in this digital home."
@@ -25,6 +41,8 @@
     "description-two": "The area was marked by the influence of the Republic of Venice and a long period under the Austrian Empire (as part of the Lombardy-Venetia Kingdom until 1866), which is reflected in the possibility that the surname derives from similar ones existing in Austria. Furthermore, it is said that some of our ancestors were fishermen in the Adriatic Sea.",
     "location-title": "Dosson di Casier: The Miller's Land (Veneto, Italy)",
     "location-description": "The house where Leone Zamuner, Esther Ogniben, and their 9 children lived before 1924 is located in Dosson di Casier, in the province of Treviso, Italy.",
+    "blocked_title": "Content Blocked",
+    "blocked_message": "This map is blocked because you have not accepted 'External Content' cookies. Please activate the category in the Cookie Settings to view the location.",
     "timeline-title": "The Saga from Dosson to Argentina",
     "timeline-description": "The timeline documents how they were led to the final decision to abandon a futureless Italy for the promise of peace and bread in Argentina in 1924.",
     "before-1914": {
@@ -106,6 +124,10 @@
     "comunity-title": "Facebook Community",
     "comunity-description": "For those interested in delving deeper into family history, sharing memories, or connecting with other members of the Zamuner family, there is an active Facebook group dedicated to this purpose.",
     "comunity-link": "Facebook Group - Zamuner Family",
-    "photos": {}
+    "photos": {
+      "alberto-zamuner": "July 2017: Visit by Alberto Zamuner, Alicia Antón García, and Diego Alberto Zamuner.",
+      "margarita-zamuner": "September 2025: Visit by Margarita Zamuner, Mónica Campos Zamuner, and Sophia Zungri Campos.",
+      "margarita-zamuner-kitchen": "What is seen here is a hood, which was originally a hearth (fogón) and has been very well preserved. Note the hook that still remains inside; it marks the exact spot where the family's grandmother used to hang the pot, preparing the daily meals."
+    }
   }
 }

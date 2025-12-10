@@ -1,0 +1,125 @@
+.modal_backdrop {
+  /* 1.Positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+
+  /* 2.Box model */
+  overflow-y: auto;
+
+  /* 4.Visuals */
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal_content {
+  /* 1.Positioning */
+  display: flex;
+  flex-direction: column;
+
+  /* 2.Box model */
+  width: var(--space-496);
+  max-width: 90%;
+  height: fit-content;
+  gap: var(--space-16);
+  padding: var(--space-8);
+  margin: var(--space-24) 0;
+
+  /* 3.Typography */
+  color: var(--black);
+
+  /* 4.Visuals */
+  background-color: var(--white);
+  border-radius: var(--space-16);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+
+  /* 5.Others */
+  transition: transform 0.3s ease-out;
+}
+
+.modal_title {
+  /* 2.Box model */
+  margin: var(--space-16) 0 0 0;
+}
+
+.modal_actions {
+  /* 1.Positioning */
+  display: flex;
+  justify-content: flex-end;
+
+  /* 2.Box model */
+  margin: var(--space-16);
+}
+
+.category {
+  /* 2.Box model */
+  padding: var(--space-16) 0;
+}
+
+.category:last-of-type {
+  /* 2.Box model */
+  border-bottom: none;
+}
+
+.category_header {
+  /* 1.Positioning */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* 2.Box model */
+  margin-bottom: 0.5rem;
+}
+
+.category_description__disclaimer {
+  /* 1.Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 2.Box model */
+  padding: var(--space-4) var(--space-16);
+  margin-left: var(--space-12);
+
+  /* 3.Typography */
+  color: var(--black-dark);
+  text-align: center;
+
+  /* 4.Visuals */
+  border-radius: var(--space-48);
+  background-color: var(--secondary-light);
+}
+
+.save_button {
+  /* 2.Box model */
+  padding: var(--space-4) var(--space-16);
+  border-radius: var(--space-48);
+
+  /* 3.Typography */
+  color: var(--white);
+
+  /* 4.Visuals */
+  background-color: var(--secondary);
+
+  /* 5.Others */
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save_button:hover {
+  /* 4.Visuals */
+  background-color: var(--secondary-dark);
+
+}
+
+@media (min-width: 425px) {
+  .modal_content {
+    /* 2.Box model */
+    padding: var(--space-16);
+  }
+}

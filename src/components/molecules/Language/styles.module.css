@@ -22,7 +22,7 @@
   /* 4.Visuals */
   border: none;
   background-color: var(--white-dark);
-  border: 2px solid var(--gray-light);
+  border: var(--space-2) solid var(--gray-light);
   border-radius: var(--space-48);
   transition: box-shadow .3s;
 

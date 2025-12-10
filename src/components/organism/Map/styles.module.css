@@ -1,0 +1,37 @@
+.map_container {
+    /* 2.Box model */
+    width: 100%;
+    max-width: 100%;
+    height: var(--space-496);
+    margin: var(--space-24) auto;
+    overflow: hidden;
+}
+
+
+.map_iframe {
+    /* 1.Positioning */
+    display: block;
+
+    /* 2.Box model */
+    border: 0;
+}
+
+.map_blocked,
+.map_loading_placeholder {
+    /* 1.Positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* 2.Box model */
+    height: 100%;
+    padding: var(--space-24);
+
+    /* 3.Typography */
+    text-align: center;
+
+    /* 4.Visuals */
+    background-color: var(--white);
+    border: 1px dashed var(--gray-light);
+}

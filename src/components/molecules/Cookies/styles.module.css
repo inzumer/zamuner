@@ -1,0 +1,154 @@
+.cookies {
+  /* 1.Positioning */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  gap: var(--space-16);
+
+  /* 2.Box model */
+  padding: var(--space-24);
+  height: fit-content;
+  width: 100%;
+
+  /* 3.Typography */
+  color: var(--white);
+
+  /* 4.Visuals */
+  background-color: var(--black-dark);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cookies_content {
+  /* 1.Positioning */
+  flex-grow: 1;
+
+  /* 2.Box model */
+  max-width: 100%;
+}
+
+.cookies_title {
+  /* 2.Box model */
+  margin-bottom: var(--space-16);
+}
+
+.buttons {
+  /* 1.Positioning */
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
+
+  /* 2.Box model */
+  gap: var(--space-16);
+  margin-top: var(--space-16);
+  width: 100%;
+}
+
+.cookie_button {
+  /* 1.Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 2.Box model */
+  padding: var(--space-2) var(--space-16);
+  border: var(--space-2) solid var(--gray-light);
+  border-radius: var(--space-48);
+  width: 100%;
+}
+
+.accept_button {
+  /* 1.Positioning */
+  order: 3;
+
+  /* 2.Box model */
+  border: none;
+
+  /* 3.Typography */
+  color: var(--white);
+
+  /* 4.Visuals */
+  background-color: var(--gray-dark);
+}
+
+.accept_button:hover {
+  /* 4.Visuals */
+  filter: brightness(0.8);
+}
+
+.reject_button {
+  /* 1.Positioning */
+  order: 2;
+
+  /* 2.Box model */
+  border: 1px solid var(--white);
+
+  /* 3.Typography */
+  color: var(--white);
+
+  /* 4.Visuals */
+  background-color: transparent;
+}
+
+.reject_button:hover {
+  /* 3.Typography */
+  color: var(--black);
+
+  /* 4.Visuals */
+  background-color: var(--gray-light);
+}
+
+.customize_button {
+  /* 1.Positioning */
+  order: 1;
+
+  /* 2.Box model */
+  border: none;
+
+  /* 3.Typography */
+  color: var(--white);
+  text-decoration: underline;
+
+  /* 4.Visuals */
+  background-color: transparent;
+}
+
+.customize_button:hover {
+  /* 3.Typography */
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .cookies {
+    /* 1.Positioning */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cookies_content {
+    /* 2.Box model */
+    max-width: 70%;
+  }
+
+  .buttons {
+    /* 1.Positioning */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    /* 2.Box model */
+    gap: var(--space-16);
+    margin-top: 0;
+    width: auto;
+  }
+
+  .cookie_button {
+    /* 2.Box model */
+    width: auto;
+  }
+}

@@ -24,7 +24,7 @@ const Input: React.FC<InputProps> = ({ id, type, value, label, placeholder, onCh
   return (
     <div className={`${styles.form__container} ${type === 'textarea' && styles.form__container_textarea}`}>
       <label htmlFor={id}>
-        <RichText id={`${id}-label`} variant="s3" text={label} />
+        <RichText id={`${id}-label`} variant="s2" text={label} />
       </label>
 
       {type === 'textarea' ? (

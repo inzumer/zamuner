@@ -8,7 +8,7 @@
   max-width: var(--space-400);
 
   /* 3. Typography */
-  color: var(--black-light);
+  color: var(--black-dark);
 }
 
 .form__container_button {
@@ -27,7 +27,7 @@
   text-transform: capitalize;
 
   /* 4.Visuals */
-  border: 2px solid var(--black-light);
+  border: var(--space-2) solid var(--black-light);
   border-radius: var(--space-48);
   transition: box-shadow .3s;
   background-color: var(--white-dark);

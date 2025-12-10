@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
             <div className={styles.contact__container}>
                 <div className={styles.contact__container_text}>
                     <RichText id='contact-title' className={styles.contact__title} variant='h2' text={t('contact.title')} />
-                    <RichText id='contact-description' className={styles.contact__subtitle} variant='p3' text={t('contact.description')} />
+                    <RichText id='contact-description' className={styles.contact__subtitle} variant='p2' text={t('contact.description')} />
                     <ContactForm />
                 </div>
             </div>

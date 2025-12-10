@@ -14,6 +14,22 @@
     "message": "Ops, qualcosa è andato storto. Per favore, riprova più tardi.",
     "button": "Tornare all’inizio"
   },
+  "cookie": {
+    "title": "Impostazioni dei Cookie",
+    "description": "Utilizziamo cookie necessari per il funzionamento e cookie di terze parti (Google Maps, Analisi) per migliorare i nostri servizi e la vostra esperienza. Potete accettare o rifiutare l'uso dei cookie, oppure configurare quali desiderate autorizzare. Per maggiori informazioni, consultate la nostra Informativa sui Cookie (link).",
+    "accept-all": "Accetta tutti",
+    "reject-all": "Rifiuta tutti",
+    "customize": "Personalizza",
+    "settings-modal-title": "Gestire le Preferenze sui Cookie",
+    "save-preferences": "Salva Preferenze",
+    "category-technical": "Cookie Tecnici e Necessari",
+    "category-technical-status": "Sempre Attivi",
+    "category-technical-desc": "Sono essenziali per il corretto funzionamento del sito web (es. sicurezza, memorizzare le impostazioni del banner). Non possono essere disattivati.",
+    "category-analytics": "Cookie di Analisi e Prestazioni",
+    "category-analytics-desc": "Ci consentono di contare le visite e misurare il traffico per vedere quali parti del sito sono popolari e migliorarne le prestazioni.",
+    "category-external": "Cookie di Contenuto Esterno (Mappe)",
+    "category-external-desc": "Consentono di caricare contenuti incorporati di terze parti come Google Maps. Se li attivate, accettate i termini di utilizzo e la politica sui cookie di Google."
+  },
   "presentation": {
     "title": "Echi di una Storia Comune",
     "description": "Questo sito web è un ponte tra il passato e i nuovi rami. È un invito a tutti gli Zamuner —ovunque si trovino— a connettersi con le proprie origini, a condividere i propri ricordi e ad assicurare che la storia trovi in questa casa digitale il suo punto d'incontro."
@@ -25,6 +41,8 @@
     "description-two": "La zona fu segnata dall'influenza della Repubblica di Venezia e da un lungo periodo sotto l'Impero d'Austria (come parte del Regno Lombardo-Veneto fino al 1866), il che si riflette nella possibilità che il cognome derivi da altri simili esistenti in Austria. Inoltre, si racconta che alcuni dei nostri antenati fossero pescatori nel Mare Adriatico.",
     "location-title": "Dosson di Casier: La Terra del Mugnaio (Veneto, Italia)",
     "location-description": "La casa in cui vivevano prima del 1924 Leone Zamuner, Esther Ogniben e i loro 9 figli si trova a Dosson di Casier, in provincia di Treviso, Italia.",
+    "blocked_title": "Contenuto Bloccato",
+    "blocked_message": "Questa mappa è bloccata perché non avete accettato i cookie di 'Contenuto Esterno'. Si prega di attivare la categoria nelle Impostazioni dei Cookie per visualizzare la posizione.",
     "timeline-title": "La Saga da Dosson all'Argentina",
     "timeline-description": "La linea temporale documenta come si giunse alla decisione finale di abbandonare un'Italia senza futuro per la promessa di pace e pane nell'Argentina del 1924.",
     "before-1914": {
@@ -106,6 +124,10 @@
     "comunity-title": "Comunità Facebook",
     "comunity-description": "Per coloro interessati ad approfondire la storia familiare, condividere ricordi o connettersi con altri membri della famiglia Zamuner, esiste un gruppo Facebook attivo dedicato a questo scopo.",
     "comunity-link": "Gruppo Facebook - Famiglia Zamuner",
-    "photos": {}
+    "photos": {
+      "alberto-zamuner": "Luglio 2017: Visita di Alberto Zamuner, Alicia Antón García e Diego Alberto Zamuner.",
+      "margarita-zamuner": "Settembre 2025: Visita di Margarita Zamuner, Mónica Campos Zamuner e Sophia Zungri Campos.",
+      "margarita-zamuner-kitchen": "Quella che si vede qui è una cappa, che in origine era un focolare (fogón) e che si è mantenuta molto ben conservata. Nota il gancio che è ancora all'interno; segna il punto esatto in cui la nonna di famiglia appendeva la pentola, preparando i pasti quotidiani."
+    }
   }
 }
