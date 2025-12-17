@@ -19,8 +19,8 @@ const Desktop: React.FC = () => {
             </Navigate>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-returns' href='/returns'>
-              <RichText id='menu-option-text-returns' text={t('header.returns')} variant='s2' className={styles.navbar__list_item_text} />
+            <Navigate id='menu-family-tree' href='/#family-tree'>
+              <RichText id='menu-option-text-family-tree' text={t('header.family-tree')} variant='s2' className={styles.navbar__list_item_text} />
             </Navigate>
           </li>
           <li>
@@ -29,13 +29,13 @@ const Desktop: React.FC = () => {
             </Navigate>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-contact' href='/#contact'>
-              <RichText id='menu-option-text-contact' text={t('header.contact')} variant='s2' className={styles.navbar__list_item_text} />
+            <Navigate id='menu-returns' href='/#returns'>
+              <RichText id='menu-option-text-returns' text={t('header.returns')} variant='s2' className={styles.navbar__list_item_text} />
             </Navigate>
           </li>
           <li className={styles.navbar__list_item}>
-            <Navigate id='menu-family-tree' href='/family-tree'>
-              <RichText id='menu-option-text-family-tree' text={t('header.family-tree')} variant='s2' className={styles.navbar__list_item_text} />
+            <Navigate id='menu-contact' href='/#contact'>
+              <RichText id='menu-option-text-contact' text={t('header.contact')} variant='s2' className={styles.navbar__list_item_text} />
             </Navigate>
           </li>
         </ul>

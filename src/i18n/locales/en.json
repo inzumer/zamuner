@@ -8,7 +8,10 @@
   "footer": {
     "social": "Social Network",
     "language": "Language",
-    "disclaimer": "Developed by @inzumer — or Nahuel Zamuner, if you prefer."
+    "disclaimer": "Developed by @inzumer — or Nahuel Zamuner, if you prefer.",
+    "comunity-title": "Facebook Community",
+    "comunity-description": "For those interested in delving deeper into family history, sharing memories, or connecting with other members of the Zamuner family, there is an active Facebook group dedicated to this purpose.",
+    "comunity-link": "Facebook Group - Zamuner Family"
   },
   "error": {
     "message": "Oops, something went wrong. Please try again later.",
@@ -121,13 +124,16 @@
   "returns": {
     "title": "Returns to Dosson",
     "description": "Throughout the decades, several members of the Zamuner family have returned to Dosson to reconnect with their roots and rediscover the land of their ancestors.",
-    "comunity-title": "Facebook Community",
-    "comunity-description": "For those interested in delving deeper into family history, sharing memories, or connecting with other members of the Zamuner family, there is an active Facebook group dedicated to this purpose.",
-    "comunity-link": "Facebook Group - Zamuner Family",
     "photos": {
       "alberto-zamuner": "July 2017: Visit by Alberto Zamuner, Alicia Antón García, and Diego Alberto Zamuner.",
       "margarita-zamuner": "September 2025: Visit by Margarita Zamuner, Mónica Campos Zamuner, and Sophia Zungri Campos.",
       "margarita-zamuner-kitchen": "What is seen here is a hood, which was originally a hearth (fogón) and has been very well preserved. Note the hook that still remains inside; it marks the exact spot where the family's grandmother used to hang the pot, preparing the daily meals."
-    }
+    },
+    "navigate": "Back to the main page"
+  },
+  "family-tree": {
+    "title": "Family Tree",
+    "description": "Explore the structure of our family with the data we know so far. You can contribute via the contact section.",
+    "navigate": "Back to the main page"
   }
 }

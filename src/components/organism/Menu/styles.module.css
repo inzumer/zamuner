@@ -164,7 +164,7 @@
     border-radius: var(--space-48);
 
     /* 5.Others */
-    transition: box-shadow 0.3s ease;
+    transition: all 0.5s ease;
   }
 
   .navbar__list_item_text:hover {
@@ -173,7 +173,7 @@
   }
 
   .navbar__list_item:hover {
-    /* 4.Visuals */
-    box-shadow: 0 5px 6px -4px #000000c2;
+    /* 2. Box Model */
+    border: var(--space-2) solid var(--gray);
   }
 }

@@ -7,7 +7,7 @@
   box-sizing: content-box;
 
   /* 4.Visuals */
-  background: var(--white-light);
+  background-color: var(--white-light);
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
 
   /* 5.Others */

@@ -8,7 +8,10 @@
   "footer": {
     "social": "Reti Sociali",
     "language": "Lingua",
-    "disclaimer": "Sviluppato da @inzumer — o Nahuel Zamuner, come preferisci."
+    "disclaimer": "Sviluppato da @inzumer — o Nahuel Zamuner, come preferisci.",
+    "comunity-title": "Comunità Facebook",
+    "comunity-description": "Per coloro interessati ad approfondire la storia familiare, condividere ricordi o connettersi con altri membri della famiglia Zamuner, esiste un gruppo Facebook attivo dedicato a questo scopo.",
+    "comunity-link": "Gruppo Facebook - Famiglia Zamuner"
   },
   "error": {
     "message": "Ops, qualcosa è andato storto. Per favore, riprova più tardi.",
@@ -121,13 +124,16 @@
   "returns": {
     "title": "Ritorni a Dosson",
     "description": "Nel corso dei decenni, diversi membri della famiglia Zamuner sono tornati a Dosson per riconnettersi con le proprie radici e riscoprire la terra dei loro antenati.",
-    "comunity-title": "Comunità Facebook",
-    "comunity-description": "Per coloro interessati ad approfondire la storia familiare, condividere ricordi o connettersi con altri membri della famiglia Zamuner, esiste un gruppo Facebook attivo dedicato a questo scopo.",
-    "comunity-link": "Gruppo Facebook - Famiglia Zamuner",
     "photos": {
       "alberto-zamuner": "Luglio 2017: Visita di Alberto Zamuner, Alicia Antón García e Diego Alberto Zamuner.",
       "margarita-zamuner": "Settembre 2025: Visita di Margarita Zamuner, Mónica Campos Zamuner e Sophia Zungri Campos.",
       "margarita-zamuner-kitchen": "Quella che si vede qui è una cappa, che in origine era un focolare (fogón) e che si è mantenuta molto ben conservata. Nota il gancio che è ancora all'interno; segna il punto esatto in cui la nonna di famiglia appendeva la pentola, preparando i pasti quotidiani."
-    }
+    },
+    "navigate": "Torna alla pagina principale"
+  },
+  "family-tree": {
+    "title": "Albero Genealogico",
+    "description": "Esplora la struttura della nostra famiglia con i dati che conosciamo finora. Puoi fornire il tuo contributo tramite la sezione contatti.",
+    "navigate": "Torna alla pagina principale"
   }
 }

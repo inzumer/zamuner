@@ -1,3 +1,5 @@
-const NotFound = () => <h1>Error</h1>;
+import { Error } from '@components';
+
+const NotFound = () => <Error />;
 
 export default NotFound;

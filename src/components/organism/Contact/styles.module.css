@@ -8,7 +8,7 @@
   max-width: var(--space-400);
 
   /* 3. Typography */
-  color: var(--black-dark);
+  color: var(--white-light);
 }
 
 .form__container_button {
@@ -18,22 +18,19 @@
 
   /* 2.Box model */
   width: 100%;
+  background-color: var(--primary-light);
 }
 
 .form__button {
+  /* 2.Box model */
+  background-color: var(--primary-light);
+
   /* 3. Typography */
   color: var(--black-light);
   font-family: var(--font-roboto-mono);
   text-transform: capitalize;
 
   /* 4.Visuals */
-  border: var(--space-2) solid var(--black-light);
   border-radius: var(--space-48);
-  transition: box-shadow .3s;
-  background-color: var(--white-dark);
-}
 
-.form__button:hover {
-  /* 4.Visuals */
-  box-shadow: 0 5px 6px -4px #000000c2;
 }

@@ -26,7 +26,7 @@
 
   /* 4.Visuals */
   border-radius: var(--space-8);
-  border: 3px solid var(--black-light);
+  border: 3px solid var(--white-light);
   transition: all 0.2s;
 
   /* 5.Others */
@@ -41,5 +41,5 @@
 .form__input:focus,
 .form__input:focus-visible {
   /* 4.Visuals */
-  border: 3px solid var(--primary-light);
+  border: 3px solid var(--white-light);
 }

@@ -3,7 +3,7 @@
 import { useMediaQuery } from '@hooks';
 import { Desktop, Mobile } from './utils';
 
-const Menu = () => {
+const Menu: React.FC = () => {
   const isDesktop = useMediaQuery('desktop');
 
   return isDesktop ? <Desktop /> : <Mobile />;

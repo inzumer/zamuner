@@ -7,7 +7,7 @@ import { useContactForm } from '@hooks';
 /** Styles */
 import styles from './styles.module.css';
 
-const Contact = () => {
+const Contact: React.FC = () => {
   const { t } = useTranslation();
   const { formData, status, handleSubmit, setFormData } = useContactForm();
 

@@ -42,7 +42,7 @@ const Mobile: React.FC = () => {
   return (
     <header id='header' data-testid='header' className={`${styles.menu}`}>
       <div className={styles.menu__mobile}>
-        <Navigate id='menu-icon' href='/es' className={styles.menu__icon}>
+        <Navigate id='menu-icon' href='/' className={styles.menu__icon}>
           <Icon name='Logo' height={80} width={80} />
         </Navigate>
 
@@ -61,18 +61,18 @@ const Mobile: React.FC = () => {
             </Button>
           </li>
           <li className={styles.navbar__list_item}>
-            <Button id='menu-returns' onClick={() => actionButtons('/returns')}>
+            <Button id='menu-family-tree' onClick={() => actionButtons('/#family-tree')}>
+              <RichText id='menu-option-text-family-tree' text={t('header.family-tree')} variant='s2' className={styles.navbar__list_item_text} />
+            </Button>
+          </li>
+          <li className={styles.navbar__list_item}>
+            <Button id='menu-returns' onClick={() => actionButtons('/#returns')}>
               <RichText id='menu-option-text-returns' text={t('header.returns')} variant='s2' className={styles.navbar__list_item_text} />
             </Button>
           </li>
           <li className={styles.navbar__list_item}>
             <Button id='menu-contact' onClick={() => actionButtons('/#contact')}>
               <RichText id='menu-option-text-contact' text={t('header.contact')} variant='s2' className={styles.navbar__list_item_text} />
-            </Button>
-          </li>
-          <li className={styles.navbar__list_item}>
-            <Button id='menu-family-tree' onClick={() => actionButtons('/family-tree')}>
-              <RichText id='menu-option-text-family-tree' text={t('header.family-tree')} variant='s2' className={styles.navbar__list_item_text} />
             </Button>
           </li>
         </ul>

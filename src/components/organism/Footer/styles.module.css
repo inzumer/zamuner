@@ -15,10 +15,24 @@
   gap: var(--space-40);
 
   /* 2. Box model */
+  padding: var(--space-48) 0;
   margin: auto;
   max-width: var(--breakpoint-lg);
 }
 
+.footer__contact,
+.footer__comunity {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+
+  /* 2. Box model */
+  max-width: var(--breakpoint-sm);
+
+  /* 3. Typography */
+  color: var(--white-light);
+}
 
 .footer__social {
   /* 1. Positioning */
@@ -41,11 +55,13 @@
   color: var(--white-light);
 }
 
-.footer__language {
-  /* 1. Positioning */
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  justify-content: center;
-  gap: var(--space-8);
+@media (min-width: 1024px) {
+  .footer__main {
+    /* 1. Positioning */
+    flex-direction: row-reverse;
+    gap: var(--space-80);
+
+    /* 2. Box model */
+    padding: var(--space-80) 0;
+  }
 }

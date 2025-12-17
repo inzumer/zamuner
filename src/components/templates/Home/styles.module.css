@@ -48,8 +48,9 @@
 }
 
 .history,
+.family_tree,
 .gallery,
-.contact {
+.returns {
   /* 2. Box Model */
   margin: auto;
   padding: var(--space-24);
@@ -59,6 +60,8 @@
 }
 
 .history__container_text,
+.family_tree__container_text,
+.returns__container_text,
 .gallery__container_text {
   /* 1. Positioning */
   display: flex;
@@ -70,7 +73,7 @@
 }
 
 .gallery,
-.contact {
+.returns {
   /* 2. Box Model */
   max-width: 100%;
 
@@ -82,21 +85,23 @@
 }
 
 .gallery__container,
-.contact__container {
+.family_tree__container,
+.returns__container {
   /* 2. Box Model */
   width: 100%;
   margin: auto;
 }
 
 .gallery__container_text,
-.contact__container_text {
+.returns__container_text {
   /* 2. Box Model */
   width: 100%;
   max-width: var(--breakpoint-lg);
   margin: auto;
 }
 
-.gallery__container_cards {
+.gallery__container_cards,
+.returns__container_cards {
   /* 1. Positioning */
   display: flex;
   justify-content: center;
@@ -108,4 +113,9 @@
   padding: var(--space-48) 0;
   max-width: var(--breakpoint-lg);
   margin: auto;
+}
+
+.family_tree__viewer {
+  /* 2. Box Model */
+  padding: var(--space-48) 0;
 }

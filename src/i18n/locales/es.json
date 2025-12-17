@@ -8,7 +8,10 @@
   "footer": {
     "social": "Redes Sociales",
     "language": "Lenguaje",
-    "disclaimer": "Desarrollado por @inzumer — o Nahuel Zamuner, como prefieras."
+    "disclaimer": "Desarrollado por @inzumer — o Nahuel Zamuner, como prefieras.",
+    "comunity-title": "Comunidad en Facebook",
+    "comunity-description": "Para aquellos interesados en profundizar en la historia familiar, compartir recuerdos o conectar con otros miembros de la familia Zamuner, existe un grupo activo en Facebook dedicado a este propósito.",
+    "comunity-link": "Grupo de Facebook - Familia Zamuner"
   },
   "error": {
     "message": "Ups, algo salió mal. Por favor, intentá de nuevo más tarde.",
@@ -121,17 +124,16 @@
   "returns": {
     "title": "Regresos a Dosson",
     "description": "A lo largo de las décadas, varios miembros de la familia Zamuner han regresado a Dosson para reconectar con sus raíces y redescubrir la tierra de sus antepasados.",
-    "comunity-title": "Comunidad en Facebook",
-    "comunity-description": "Para aquellos interesados en profundizar en la historia familiar, compartir recuerdos o conectar con otros miembros de la familia Zamuner, existe un grupo activo en Facebook dedicado a este propósito.",
-    "comunity-link": "Grupo de Facebook - Familia Zamuner",
     "photos": {
       "alberto-zamuner": "Julio de 2017: Visita de Alberto Zamuner, Alicia Antón García y Diego Alberto Zamuner.",
       "margarita-zamuner": "Septiembre de 2025: Visita de Margarita Zamuner, Mónica Campos Zamuner y Sophia Zungri Campos.",
       "margarita-zamuner-kitchen": "Lo que aquí se observa es una campana, que en su origen fue un fogón y que se ha mantenido muy bien conservada. Fíjate en el gancho que aún permanece en el interior; marca el punto exacto donde la abuela de la familia colgaba la olla, preparando las comidas diarias."
-    }
+    },
+    "navigate": "Volver a la página principal"
   },
   "family-tree": {
     "title": "Arbol genealógico",
-    "description": ""
+    "description": "Explora la estructura de nuestra familia con los datos que hasta ahora conocemos. Puedes hacer aportes desde la sección de contacto.",
+    "navigate": "Volver a la página principal"
   }
 }
