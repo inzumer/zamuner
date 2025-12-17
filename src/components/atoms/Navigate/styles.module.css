@@ -1,0 +1,6 @@
+.link {
+  /* 3. Typography */
+  text-decoration: none;
+  line-height: normal;
+  color: var(--black);
+}

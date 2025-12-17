@@ -19,7 +19,14 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@assets": ["./src/assets/index"],
+      "@components": ["./src/components/index"],
+      "@constants": ["./src/constants/index"],
+      "@data": ["./src/data/index"],
+      "@fonts": ["./src/fonts/index"],
+      "@hooks": ["./src/hooks/index"],
+      "@i18n": ["./src/i18n/index"],
+      "@services": ["./src/services/index"],
     }
   },
   "include": [

@@ -1,0 +1,55 @@
+.error {
+  /* 1. Positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* 2. Box Model */
+  margin: auto;
+  padding: var(--space-24);
+  padding-top: var(--space-80);
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+  min-height: 100vh;
+}
+
+.error__container {
+  /* 1. Positioning */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: var(--space-16);
+
+  /* 2. Box Model */
+  width: 100%;
+  max-width: var(--breakpoint-lg);
+}
+
+.error__title {
+  /* 3. Typography */
+  text-align: center;
+}
+
+.error_navigate {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+
+  /* 2. Box Model */
+  margin: var(--space-48) 0;
+  padding: var(--space-4) var(--space-16);
+  border: var(--space-2) solid var(--gray-light);
+  border-radius: var(--space-48);
+
+  /* 5.Others */
+  transition: all 0.3s ease;
+}
+
+.error_navigate:hover {
+  /* 2. Box Model */
+  border: var(--space-2) solid var(--black-light);
+}

@@ -1,0 +1,18 @@
+.button {
+  /* 1. Positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 2. Box model */
+  padding: var(--space-4) var(--space-16);
+
+  /* 4. Visuals */
+  border: none;
+  border-radius: var(--space-8);
+  background-color: transparent;
+  transition: background-color 0.3s;
+
+  /* 5. Others */
+  cursor: pointer;
+}

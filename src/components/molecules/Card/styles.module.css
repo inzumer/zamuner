@@ -1,0 +1,65 @@
+.card {
+  /* 2.Box model */
+  width: min-content;
+  max-width: var(--space-496);
+  height: fit-content;
+  padding: var(--space-8);
+  box-sizing: content-box;
+
+  /* 4.Visuals */
+  background-color: var(--white-light);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+
+  /* 5.Others */
+  transition: transform 0.8s ease;
+}
+
+.card__frame {
+  /* 2.Box model */
+  margin-bottom: var(--space-8);
+}
+
+.card__frame img {
+  /* 1.Positioning */
+  display: block;
+
+  /* 2.Box model */
+  width: -webkit-fill-available;
+  height: auto;
+  max-height: var(--space-320);
+  max-width: var(--space-288);
+
+  /* 4.Visuals */
+  object-fit: cover;
+}
+
+.card__toggle {
+  /* 1.Positioning */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  /* 2.Box model */
+  width: 100%;
+  padding: 0;
+}
+
+.card__description_content {
+  /* 2.Box model */
+  width: 100%;
+  max-width: var(--space-496);
+  overflow: hidden;
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  /* 5.Others */
+  transition: max-height 0.2s ease-in-out, padding 0.2s ease-in-out;
+}
+
+.open {
+  /* 2.Box model */
+  max-height: calc(var(--space-496) + var(--space-496));
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-8);
+}

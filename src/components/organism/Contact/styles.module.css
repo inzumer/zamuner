@@ -1,0 +1,36 @@
+.form {
+  /* 1.Positioning */
+  display: flex;
+  flex-direction: column;
+
+  /* 2.Box model */
+  width: 100%;
+  max-width: var(--space-400);
+
+  /* 3. Typography */
+  color: var(--white-light);
+}
+
+.form__container_button {
+  /* 1.Positioning */
+  display: flex;
+  justify-content: flex-end;
+
+  /* 2.Box model */
+  width: 100%;
+  background-color: var(--primary-light);
+}
+
+.form__button {
+  /* 2.Box model */
+  background-color: var(--primary-light);
+
+  /* 3. Typography */
+  color: var(--black-light);
+  font-family: var(--font-roboto-mono);
+  text-transform: capitalize;
+
+  /* 4.Visuals */
+  border-radius: var(--space-48);
+
+}
