@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Cookies, SettingsModal } from '@components';
-import { FamilyTree, Gallery, History, Presentation, Returns } from './utils';
+import { Contact, FamilyTree, Gallery, History, Presentation, Returns } from './utils';
 
 const Home: React.FC = () => {
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
@@ -29,6 +29,7 @@ const Home: React.FC = () => {
       <FamilyTree />
       <Gallery />
       <Returns />
+      <Contact />
       <Cookies
         onAccept={handleAcceptScripts}
         onCustomize={handleOpenSettingsModal}

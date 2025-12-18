@@ -50,7 +50,8 @@
 .history,
 .family_tree,
 .gallery,
-.returns {
+.returns,
+.contact__container {
   /* 2. Box Model */
   margin: auto;
   padding: var(--space-24);
@@ -62,7 +63,8 @@
 .history__container_text,
 .family_tree__container_text,
 .returns__container_text,
-.gallery__container_text {
+.gallery__container_text,
+.contact__container_text {
   /* 1. Positioning */
   display: flex;
   flex-direction: column;
@@ -86,7 +88,8 @@
 
 .gallery__container,
 .family_tree__container,
-.returns__container {
+.returns__container,
+.contact__container {
   /* 2. Box Model */
   width: 100%;
   margin: auto;
@@ -118,4 +121,15 @@
 .family_tree__viewer {
   /* 2. Box Model */
   padding: var(--space-48) 0;
+}
+
+.contact {
+  /* 2. Box Model */
+  max-width: 100%;
+
+  /* 3. Typography */
+  color: var(--black-dark);
+
+  /* 4. Visuals */
+  background-color: var(--primary-dark);
 }

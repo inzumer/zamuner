@@ -1,3 +1,4 @@
+export { default as Contact } from './Contact';
 export { default as FamilyTree } from './FamilyTree';
 export { default as Gallery } from './Gallery';
 export { default as History } from './History';
