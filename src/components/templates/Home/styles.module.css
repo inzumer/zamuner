@@ -128,8 +128,8 @@
   max-width: 100%;
 
   /* 3. Typography */
-  color: var(--black-dark);
+  color: var(--white-light);
 
   /* 4. Visuals */
-  background-color: var(--primary-dark);
+  background-color: var(--black-light);
 }

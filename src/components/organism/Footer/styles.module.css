@@ -4,7 +4,7 @@
 
   /* 4. Visuals */
   background-color: var(--black-light);
-  border-top: 1px solid var(--black-light);
+  border-top: 1px solid var(--white-dark);
 }
 
 .footer__social {
