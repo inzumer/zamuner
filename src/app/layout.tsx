@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: `${NAME}`,
   description: `${DESCRIPTION}`,
   verification: {
-    google: '',
+    google: 'TsWBICNY9XOLMtREB_ZloU8iv9A6Z7XmHadrB6rWXmY',
   },
   icons: {
     icon: [
