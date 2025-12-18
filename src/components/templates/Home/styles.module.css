@@ -126,10 +126,4 @@
 .contact {
   /* 2. Box Model */
   max-width: 100%;
-
-  /* 3. Typography */
-  color: var(--white-light);
-
-  /* 4. Visuals */
-  background-color: var(--black-light);
 }
