@@ -13,6 +13,7 @@ const MenuClose: React.FC<MenuCloseProps> = ({ width = 24, height = 24, classNam
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
     aria-labelledby="iconTitle"
+    role="img"
   >
     <title id="iconTitle">{accessibility}</title>
     <path

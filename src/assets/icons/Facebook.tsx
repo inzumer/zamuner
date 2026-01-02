@@ -14,6 +14,7 @@ const Facebook: React.FC<FacebookProps> = ({ width = 18, height = 18, className,
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-labelledby="iconTitle"
+        role="img"
     >
         <title id="iconTitle">{accessibility}</title>
         <path

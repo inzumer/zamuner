@@ -5,7 +5,7 @@ interface LinkProps {
   accessibility?: string;
 }
 
-const Link: React.FC<LinkProps> = ({ width = 24, height = 24, className, accessibility = 'Link' }) => (
+const Link: React.FC<LinkProps> = ({ width = 24, height = 24, className, accessibility = 'Enlace' }) => (
   <svg
     width={width}
     height={height}
@@ -14,6 +14,7 @@ const Link: React.FC<LinkProps> = ({ width = 24, height = 24, className, accessi
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     aria-labelledby="iconTitle"
+    role="img"
   >
     <title id="iconTitle">{accessibility}</title>
     <path

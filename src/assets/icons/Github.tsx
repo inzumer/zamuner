@@ -13,6 +13,7 @@ const Github: React.FC<GithubProps> = ({ width = 24, height = 24, className, acc
     viewBox="0 0 16 16"
     xmlns="http://www.w3.org/2000/svg"
     aria-labelledby="iconTitle"
+    role="img"
   >
     <title id="iconTitle">{accessibility}</title>
     <path

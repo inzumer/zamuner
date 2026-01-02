@@ -2627,7 +2627,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -2730,7 +2730,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -2833,7 +2833,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -2968,7 +2968,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3071,7 +3071,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3174,7 +3174,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3277,7 +3277,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3380,7 +3380,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3483,7 +3483,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3597,7 +3597,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3700,7 +3700,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3819,7 +3819,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -3922,7 +3922,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4025,7 +4025,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4264,7 +4264,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4375,7 +4375,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4478,7 +4478,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4581,7 +4581,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4732,7 +4732,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4835,7 +4835,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -4954,7 +4954,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5057,7 +5057,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5160,7 +5160,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5263,7 +5263,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5366,7 +5366,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5469,7 +5469,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5572,7 +5572,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5675,7 +5675,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5778,7 +5778,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />
@@ -5881,7 +5881,7 @@ const Family: React.FC<FamilyProps> = ({ width = 6355, height = 4328, className,
                     values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'
                 />
                 <feBlend
-                    mode='plus-darker'
+                    mode='darken'
                     in2='shape'
                     result='effect1_innerShadow_458_3944'
                 />

@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
-import { Analytics } from '@vercel/analytics/next';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { GoogleTagManager } from '@next/third-parties/google';
 import { playfair, merriweather } from '@fonts';
 import { Footer, Menu, I18nLayout } from '@components';
 import { DESCRIPTION, NAME, TWITTER } from '@constants';
@@ -32,7 +31,7 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     images: [
       {
-        url: './oph.png',
+        url: 'https://www.zamuner.space/oph.png',
         width: 1200,
         height: 630,
         alt: 'Zamuner Logo',
@@ -47,7 +46,7 @@ export const metadata: Metadata = {
     creator: `${TWITTER}`,
     images: [
       {
-        url: './oph.png',
+        url: 'https://www.zamuner.space/oph.png',
         width: 1200,
         height: 630,
         alt: 'Zamuner Logo',
@@ -60,13 +59,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='es'>
+      <GoogleTagManager gtmId="GTM-NZPCBFVZ" />
       <body id='root' className={`${playfair.variable} ${merriweather.variable}`}>
         <I18nLayout>
           <Menu />
           <main id='main' data-testid='main'>
             {children}
-            <Analytics />
-            <SpeedInsights />
           </main>
           <Footer />
         </I18nLayout>
