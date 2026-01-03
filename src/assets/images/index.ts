@@ -11,6 +11,7 @@ export { default as ChurchTwo } from './church-two.jpg';
 export { default as Cousins } from './cousins.jpg';
 export { default as DiscountCard } from './discount-card.jpg';
 export { default as Family } from './family.jpg';
+export { default as FamilyThree } from './family-three.png';
 export { default as FamilyOgniben } from './family-ogniben.jpg';
 export { default as HolyCards } from './holy-cards.png';
 export { default as House } from './house.jpg';

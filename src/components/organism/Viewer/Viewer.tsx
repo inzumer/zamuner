@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
-import { Button, Icon } from '@components';
+import { Button, Icon, Image } from '@components';
 import { useMediaQuery } from '@hooks';
 
 /** Styles */
@@ -64,7 +64,7 @@ const Viewer: React.FC = () => {
                                     height: '100%'
                                 }}
                             >
-                                <Icon name="Family" className={styles.viewer_icon} />
+                                <Image src='FamilyThree' alt='Arbol familiar' className={styles.viewer_icon} />
                             </TransformComponent>
                         </>
                     )}
